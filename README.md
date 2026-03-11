@@ -44,6 +44,13 @@ CourseQA-RAG/
 │                               #   deepseek-8b-f16.gguf, deepseek-8b-q8_0.gguf,
 │                               #   deepseek-8b-q5_K_M.gguf, deepseek-8b-q4_K_M.gguf, etc.
 │
+├── scripts/
+│   └── quantization/           # Shell scripts for model conversion and quantization
+│                               #   convert_to_gguf.sh  — downloads model from HF and converts HF → GGUF (FP16)
+│                               #   quantize_all.sh     — loops over quant levels (q8_0, q5_K_M, q4_K_M, q4_0)
+│                               #   validate_quants.sh  — spot-checks each GGUF with a test prompt
+│                               #   Run these on DGX Spark (requires llama.cpp built with GGML_CUDA=1)
+│
 ├── deploy/                     # Self-contained deployment bundle for consumer laptops
 │   ├── models/                 # Q4_K_M GGUF file for deployment (~4.9 GB)
 │   ├── embeddings/
