@@ -1,0 +1,11 @@
+haystack-ai
+faiss-haystack
+sentence-transformers
+llama-cpp-python
+pymupdf
+gradio
+pydantic
+tqdm
+psutil
+cachetools
+requests
