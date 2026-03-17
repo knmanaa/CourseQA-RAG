@@ -9,3 +9,4 @@ tqdm
 psutil
 cachetools
 requests
+beir
