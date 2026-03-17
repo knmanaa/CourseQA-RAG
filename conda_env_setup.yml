@@ -1,0 +1,25 @@
+name: COMP4901D
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - haystack-ai
+  - sentence-transformers
+  - llama-cpp-python
+  - pymupdf
+  - pydantic
+  - tqdm
+  - psutil
+  - cachetools
+
+  - pip
+  - pip:
+    - beir==2.2.0
+
+  # Optional
+  # - gradio
+  # - requests
+
+  # Not sure if useful
+  # - faiss-haystack
