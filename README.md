@@ -2,6 +2,14 @@
 
 Offline, privacy-preserving Teaching Assistant powered by RAG (Retrieval-Augmented Generation) using Haystack 2.x, FAISS, and a locally-served GGUF model.
 
+## Conda Env Setup
+Install conda, and execute following:
+```
+conda env create -f conda_env_setup.yml
+conda activate COMP4901D
+```
+
+
 ## Folder Structure
 
 ```
