@@ -6,8 +6,15 @@ Offline, privacy-preserving Teaching Assistant powered by RAG (Retrieval-Augment
 Install conda, and execute following:
 ```
 conda env create -f conda_env_setup.yml
-conda activate COMP4901D
+conda activate CourseQARAG
 ```
+
+## Quantization Script Guide
+
+See `scripts/quantization/README.md` for:
+- what each quantization script does
+- one-command wrapper usage
+- examples with and without monitoring
 
 
 ## Folder Structure
