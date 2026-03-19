@@ -1,0 +1,14 @@
+# Cleanup defaults for scripts/clean_up/clean_models.sh
+# Format: KEY=VALUE
+
+# Keep this aligned with scripts/quantization/model_config.txt if you want
+# cleanup to follow the currently selected quantization model.
+MODEL_ID=Qwen/Qwen3.5-9B
+
+# Optional overrides
+# BASE_NAME=qwen3_5-9b
+# MODELS_DIR=./models
+
+# Optional behavior flags (0 or 1)
+# DRY_RUN=0
+# ASSUME_YES=0
