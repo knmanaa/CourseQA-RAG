@@ -1,0 +1,24 @@
+# Quantization / validation defaults
+# Scripts read this file automatically unless --config-file is provided.
+# Format: KEY=VALUE (quotes are optional)
+
+MODEL_ID=Qwen/Qwen3.5-9B
+# Optional override. If omitted, scripts derive BASE_NAME from MODEL_ID.
+# BASE_NAME=qwen3_5-9b
+
+# Required for gated/private models (example: google/gemma-3-27b-it).
+# HF_TOKEN=<your_huggingface_token>
+# HF_TOKEN=
+
+# Quantization defaults
+QUANTS=q8_0 q6_K q5_K_M q4_K_M q4_0
+
+# Validation defaults
+PROMPT=Explain gradient descent in 3 concise bullet points.
+N_PREDICT=128
+TEMP=0.1
+
+# Optional path overrides
+# MODELS_DIR=./models
+# LLAMA_CPP_DIR=./llama.cpp
+# ENV_NAME=COMP4901D
