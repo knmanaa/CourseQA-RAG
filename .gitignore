@@ -1,2 +1,8 @@
 #Virtual environment
 venv
+
+# Local model artifacts (downloads + GGUF outputs)
+/models/
+
+# Local llama.cpp checkout/build
+/llama.cpp/

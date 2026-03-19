@@ -10,3 +10,7 @@ psutil
 cachetools
 requests
 beir
+huggingface_hub[cli]
+transformers
+safetensors
+sentencepiece
