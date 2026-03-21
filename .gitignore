@@ -1,5 +1,6 @@
 #Virtual environment
 venv
+.vscode/
 
 # Local model artifacts (downloads + GGUF outputs)
 /models/
