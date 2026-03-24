@@ -7,3 +7,11 @@ venv
 
 # Local llama.cpp checkout/build
 /llama.cpp/
+
+# logs
+/logs/eval
+
+# evaluation
+/eval/bench_results.csv
+/eval/bench_results.json
+/eval/__pycache__

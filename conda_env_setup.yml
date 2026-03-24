@@ -16,6 +16,7 @@ dependencies:
   - safetensors
   - sentencepiece
   - huggingface_hub
+  - matplotlib
 
   - pip
   - pip:
