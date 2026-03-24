@@ -38,7 +38,7 @@ CourseQA-RAG/
 │   ├── run_retrieval_eval.py   # Benchmarks Precision@K, Recall@K, MRR across chunking
 │   │                           #   strategies, chunk sizes, K values, and index types
 │   ├── run_generation_eval.py  # Measures answer accuracy, relevance, and factual consistency
-│   └── run_system_bench.py     # Records TTFT, total generation time, peak RAM, and tok/s
+│   └── run_models_bench.py     # Records TTFT, total generation time, peak RAM, and tok/s
 │                               #   across quant levels on both DGX Spark and laptop
 │
 ├── data/
