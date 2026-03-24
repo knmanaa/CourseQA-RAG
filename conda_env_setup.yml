@@ -1,4 +1,4 @@
-name: COMP4901D
+name: CourseQARAG
 channels:
   - defaults
   - conda-forge
@@ -12,10 +12,15 @@ dependencies:
   - tqdm
   - psutil
   - cachetools
+  - transformers
+  - safetensors
+  - sentencepiece
+  - huggingface_hub
 
   - pip
   - pip:
     - beir==2.2.0
+    - huggingface_hub[cli]
 
   # Optional
   # - gradio
