@@ -1,1 +1,73 @@
-[]
+[
+  {
+    "question": "What is gradient descent and how does it work?",
+    "answer": "Gradient descent is an iterative optimisation algorithm that updates model parameters in the direction of the steepest decrease of the loss function, scaled by a learning rate.",
+    "source_doc": "lectures/lecture01.pdf",
+    "source_page": 5,
+    "category": "optimisation"
+  },
+  {
+    "question": "What is the difference between supervised and unsupervised learning?",
+    "answer": "Supervised learning trains on labelled data to predict outputs; unsupervised learning finds hidden patterns in unlabelled data without explicit target labels.",
+    "source_doc": "lectures/lecture02.pdf",
+    "source_page": 3,
+    "category": "fundamentals"
+  },
+  {
+    "question": "What is overfitting and how can it be mitigated?",
+    "answer": "Overfitting occurs when a model learns noise in training data and fails to generalise. Mitigation strategies include regularisation (L1/L2), dropout, early stopping, and data augmentation.",
+    "source_doc": "textbook/chapter4.pdf",
+    "source_page": 88,
+    "category": "model-selection"
+  },
+  {
+    "question": "Explain the bias-variance tradeoff.",
+    "answer": "High bias (underfitting) means the model is too simple; high variance (overfitting) means it is too sensitive to training data. A good model balances both to minimise total generalisation error.",
+    "source_doc": "textbook/chapter4.pdf",
+    "source_page": 92,
+    "category": "model-selection"
+  },
+  {
+    "question": "What is the softmax function used for?",
+    "answer": "Softmax converts a vector of raw scores (logits) into a probability distribution over classes, ensuring all values are in (0,1) and sum to 1.",
+    "source_doc": "lectures/lecture05.pdf",
+    "source_page": 11,
+    "category": "neural-networks"
+  },
+  {
+    "question": "How does backpropagation compute gradients?",
+    "answer": "Backpropagation applies the chain rule of calculus to propagate the error signal layer by layer from the output back to the inputs, computing the gradient of the loss with respect to each weight.",
+    "source_doc": "textbook/chapter6.pdf",
+    "source_page": 142,
+    "category": "neural-networks"
+  },
+  {
+    "question": "What is precision and how does it differ from recall?",
+    "answer": "Precision is the fraction of retrieved items that are relevant (TP / (TP + FP)). Recall is the fraction of all relevant items that were retrieved (TP / (TP + FN)). They trade off against each other.",
+    "source_doc": "lectures/lecture08.pdf",
+    "source_page": 7,
+    "category": "evaluation"
+  },
+  {
+    "question": "What is the purpose of cross-validation?",
+    "answer": "Cross-validation estimates a model's generalisation performance by repeatedly splitting data into train/validation folds, reducing the variance of the performance estimate compared to a single hold-out split.",
+    "source_doc": "textbook/chapter5.pdf",
+    "source_page": 110,
+    "category": "model-selection"
+  },
+  {
+    "question": "What is a convolutional neural network and why is it suited to images?",
+    "answer": "A CNN uses shared-weight convolutional filters that detect local patterns regardless of their position in the image. Pooling layers reduce spatial resolution and provide translation invariance.",
+    "source_doc": "lectures/lecture10.pdf",
+    "source_page": 2,
+    "category": "deep-learning"
+  },
+  {
+    "question": "What is attention in transformer models?",
+    "answer": "Attention allows each token to weigh how much it should attend to every other token. Scaled dot-product attention computes a weighted sum of values, where weights are derived from query-key dot products.",
+    "source_doc": "textbook/chapter9.pdf",
+    "source_page": 214,
+    "category": "deep-learning"
+  }
+]
+
