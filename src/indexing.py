@@ -1,61 +1,87 @@
-from haystack.components.embedders import SentenceTransformersTextEmbedder
-from haystack.components.retrievers.in_memory import InMemoryEmbeddingRetriever
-# Or: from haystack_integrations.components.retrievers.qdrant import QdrantEmbeddingRetriever
-from haystack.components.builders import ChatPromptBuilder
-from haystack.components.generators.chat import OpenAIChatGenerator  # or HuggingFaceLocalGenerator, Ollama...
-from haystack.dataclasses import ChatMessage
+import os
+import json
+from pathlib import Path
+from typing import List, Union
 
-rag_pipeline = Pipeline()
+from haystack import Pipeline, component
+from haystack.dataclasses import Document, ByteStream
+from haystack.components.converters import TextFileToDocument, PyPDFToDocument
+from haystack.components.routers import FileTypeRouter
+from haystack.components.joiners import DocumentJoiner
+from haystack.components.embedders import SentenceTransformersDocumentEmbedder
+from haystack.components.writers import DocumentWriter
 
-# 1. Embed query
-rag_pipeline.add_component(
-    "query_embedder",
-    SentenceTransformersTextEmbedder(model="sentence-transformers/all-MiniLM-L6-v2")  # needs to match the indexing
-)
+from src.chunker import DocumentChunker
+from src.store import get_document_store, save_document_store
+from src.ingest import get_test_files
 
-# 2. Retrieve
-rag_pipeline.add_component(
-    "retriever",
-    InMemoryEmbeddingRetriever(document_store=document_store, top_k=6)  # top_k 5-10 
-)
+@component
+class CourseJSONToDocument:
+    """A custom component to parse the scraped Course JSON (key=id, value=text) into Haystack Documents"""
+    @component.output_types(documents=List[Document])
+    def run(self, sources: List[Union[str, Path, ByteStream]]):
+        documents = []
+        for src in sources:
+            if isinstance(src, ByteStream):
+                continue
+            try:
+                with open(src, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    for key, val in data.items():
+                        # We create one document per slide/paragraph
+                        documents.append(Document(content=val, meta={"slide_id": key, "file": str(src)}))
+            except Exception as e:
+                print(f"Warning: Could not read {src} as JSON - {e}")
+        return {"documents": documents}
 
-# 3. (Optional) Reranker to filter context with good quality
-# rag_pipeline.add_component("reranker", SentenceTransformersRanker(model="cross-encoder/ms-marco-MiniLM-L-6-v2", top_k=3))
+def run_indexing():
+    files = get_test_files()
+    print(f"Start indexing {len(files)} files: {files}")
 
-# 4. Prompt builder (use chat format for better response)
-rag_pipeline.add_component(
-    "prompt_builder",
-    ChatPromptBuilder(template=[
-        ChatMessage.from_system(
-            """You are a helpful assistant answering questions based ONLY on the provided context. 
-            If the context doesn't contain the answer, say "I don't have enough information"."""),
-        ChatMessage.from_user(
-            """Context:\n{% for doc in documents %}{{ doc.content | truncate(500) }}\n{% endfor %}
+    # ====================== INIT COMPONENTS ======================
+    document_store = get_document_store()
+    
+    file_type_router = FileTypeRouter(mime_types=["text/plain", "application/pdf", "application/json"])
+    text_converter = TextFileToDocument()
+    pdf_converter = PyPDFToDocument()
+    json_converter = CourseJSONToDocument()
+    
+    document_joiner = DocumentJoiner()
+    
+    chunker = DocumentChunker(strategy="sentence", chunk_size=512, overlap=64)
+    embedder = SentenceTransformersDocumentEmbedder(model="sentence-transformers/all-MiniLM-L6-v2")
+    
+    writer = DocumentWriter(document_store=document_store)
+    
+    # ====================== BUILD PIPELINE ======================
+    indexing_pipeline = Pipeline()
+    indexing_pipeline.add_component(instance=file_type_router, name="file_type_router")
+    indexing_pipeline.add_component(instance=text_converter, name="text_converter")
+    indexing_pipeline.add_component(instance=pdf_converter, name="pdf_converter")
+    indexing_pipeline.add_component(instance=json_converter, name="json_converter")
+    indexing_pipeline.add_component(instance=document_joiner, name="document_joiner")
+    indexing_pipeline.add_component(instance=chunker, name="chunker")
+    indexing_pipeline.add_component(instance=embedder, name="embedder")
+    indexing_pipeline.add_component(instance=writer, name="writer")
+    
+    # ====================== CONNECT ======================
+    indexing_pipeline.connect("file_type_router.text/plain", "text_converter.sources")
+    indexing_pipeline.connect("file_type_router.application/pdf", "pdf_converter.sources")
+    indexing_pipeline.connect("file_type_router.application/json", "json_converter.sources")
+    
+    indexing_pipeline.connect("text_converter", "document_joiner")
+    indexing_pipeline.connect("pdf_converter", "document_joiner")
+    indexing_pipeline.connect("json_converter", "document_joiner")
+    
+    indexing_pipeline.connect("document_joiner", "chunker")
+    indexing_pipeline.connect("chunker", "embedder")
+    indexing_pipeline.connect("embedder", "writer")
 
-Question: {{query}}"""
-        )
-    ])
-)
+    # ====================== EXECUTE ======================
+    indexing_pipeline.run({"file_type_router": {"sources": files}})
+    
+    save_document_store(document_store)
+    print("✅ Indexing done & FAISS Store saved!")
 
-# 5. Generator
-rag_pipeline.add_component(
-    "generator",
-    OpenAIChatGenerator(model="gpt-4o-mini")  # substitute by local: HuggingFaceLocalGenerator(...) or Ollama
-)
-
-# Connections
-rag_pipeline.connect("query_embedder.embedding", "retriever.query_embedding")
-rag_pipeline.connect("retriever.documents", "prompt_builder.documents")
-rag_pipeline.connect("prompt_builder.prompt", "generator.prompt")
-# Nếu có reranker: retriever → reranker → prompt_builder
-def run_query(question: str):
-    """Main function to run query"""
-    result = rag_pipeline.run({
-        "query_embedder": {"text": question},
-        "prompt_builder": {"query": question}
-    })
-    return result["generator"]["replies"][0].content
-
-# Quick test in this file (optional)
 if __name__ == "__main__":
-    print(run_query("what's your question?"))
+    run_indexing()
