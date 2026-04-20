@@ -9,6 +9,8 @@ from haystack.components.embedders import SentenceTransformersTextEmbedder
 from haystack_integrations.components.retrievers.faiss import FAISSEmbeddingRetriever
 from haystack.components.builders import ChatPromptBuilder
 from haystack.dataclasses import ChatMessage
+from haystack.utils import ComponentDevice
+import torch
 
 # Sử dụng Local Llama.cpp model
 from haystack_integrations.components.generators.llama_cpp import LlamaCppChatGenerator
@@ -36,9 +38,12 @@ print(f"✅ Model is ready at: {model_path}")
 # ====================== PIPELINE ======================
 rag_pipeline = Pipeline()
 
+device_str = "cuda:0" if torch.cuda.is_available() else "cpu"
+device = ComponentDevice.from_str(device_str)
+
 rag_pipeline.add_component(
     "query_embedder",
-    SentenceTransformersTextEmbedder(model="sentence-transformers/all-MiniLM-L6-v2")
+    SentenceTransformersTextEmbedder(model="sentence-transformers/all-MiniLM-L6-v2", device=device)
 )
 
 rag_pipeline.add_component(
@@ -62,7 +67,12 @@ Question: {{query}}"""
 rag_pipeline.add_component(
     "generator",
     # n_ctx is Context length, can be increased to 4096 if RAM is strong
-    LlamaCppChatGenerator(model=model_path, n_ctx=2048, generation_kwargs={"max_tokens": 512, "temperature": 0.1})
+    LlamaCppChatGenerator(
+        model=model_path, 
+        n_ctx=2048, 
+        model_kwargs={"n_gpu_layers": -1 if torch.cuda.is_available() else 0},
+        generation_kwargs={"max_tokens": 512, "temperature": 0.1}
+    )
 )
 
 # Connections
