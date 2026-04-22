@@ -18,6 +18,11 @@ dependencies:
   - huggingface_hub
   - matplotlib
 
+  # FAISS db added
+  - faiss-haystack
+  - llama-cpp-haystack
+  - pypdf
+
   - pip
   - pip:
     - beir==2.2.0
@@ -26,6 +31,3 @@ dependencies:
   # Optional
   # - gradio
   # - requests
-
-  # FAISS db added
-  - faiss-haystack
