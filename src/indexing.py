@@ -10,6 +10,8 @@ from haystack.components.routers import FileTypeRouter
 from haystack.components.joiners import DocumentJoiner
 from haystack.components.embedders import SentenceTransformersDocumentEmbedder
 from haystack.components.writers import DocumentWriter
+from haystack.utils import ComponentDevice
+import torch
 
 from src.chunker import DocumentChunker
 from src.store import get_document_store, save_document_store
@@ -49,7 +51,10 @@ def run_indexing():
     document_joiner = DocumentJoiner()
     
     chunker = DocumentChunker(strategy="sentence", chunk_size=512, overlap=64)
-    embedder = SentenceTransformersDocumentEmbedder(model="sentence-transformers/all-MiniLM-L6-v2")
+    
+    device_str = "cuda:0" if torch.cuda.is_available() else "cpu"
+    device = ComponentDevice.from_str(device_str)
+    embedder = SentenceTransformersDocumentEmbedder(model="sentence-transformers/all-MiniLM-L6-v2", device=device)
     
     writer = DocumentWriter(document_store=document_store)
     
