@@ -25,6 +25,7 @@ from huggingface_hub import hf_hub_download
 from haystack import Pipeline
 from haystack.components.embedders import SentenceTransformersTextEmbedder
 from haystack_integrations.components.retrievers.faiss import FAISSEmbeddingRetriever
+from haystack_integrations.components.retrievers.faiss import FAISSEmbeddingRetriever
 from haystack.components.builders import ChatPromptBuilder
 from haystack.dataclasses import ChatMessage
 from haystack.utils import ComponentDevice
@@ -140,13 +141,18 @@ rag_pipeline = Pipeline()
 device_str = "cuda:0" if torch.cuda.is_available() else "cpu"
 device = ComponentDevice.from_str(device_str)
 
+device_str = "cuda:0" if torch.cuda.is_available() else "cpu"
+device = ComponentDevice.from_str(device_str)
+
 rag_pipeline.add_component(
     "query_embedder",
+    SentenceTransformersTextEmbedder(model="sentence-transformers/all-MiniLM-L6-v2", device=device)
     SentenceTransformersTextEmbedder(model="sentence-transformers/all-MiniLM-L6-v2", device=device)
 )
 
 rag_pipeline.add_component(
     "retriever",
+    FAISSEmbeddingRetriever(document_store=document_store, top_k=6)
     FAISSEmbeddingRetriever(document_store=document_store, top_k=6)
 )
 
@@ -217,6 +223,7 @@ except Exception as exc:
 rag_pipeline.connect("query_embedder.embedding", "retriever.query_embedding")
 rag_pipeline.connect("retriever.documents", "prompt_builder.documents")
 rag_pipeline.connect("prompt_builder.prompt", "generator.messages")
+rag_pipeline.connect("prompt_builder.prompt", "generator.messages")
 
 print("✅ Pipeline Retrieval & Response (Local GGUF) is ready!")
 debug_retrieval = os.getenv("COURSEQA_DEBUG_RETRIEVAL", "0") == "1"
@@ -253,6 +260,25 @@ def run_query(question: str):
     return answer
 
 if __name__ == "__main__":
+    print("\n" + "="*50)
+    print("Welcome to Course RAG QA. Type 'exit' to quit.")
+    print("="*50)
+    
+    while True:
+        q = input("\n[You]: ")
+        if q.strip().lower() in ['exit', 'quit']:
+            break
+            
+        try:
+            print("\n[AI is thinking...]")
+            ans = run_query(q)
+            # Remove <think> tags if present to just show the answer
+            if "</think>" in ans:
+                ans = ans.split("</think>")[-1].strip()
+            print(f"\n[AI]: {ans}")
+        except Exception as e:
+            print(f"[Error]: {e}")
+
     print("\n" + "="*50)
     print("Welcome to Course RAG QA. Type 'exit' to quit.")
     print("="*50)

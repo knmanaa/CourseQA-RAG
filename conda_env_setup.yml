@@ -4,4 +4,28 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11
+  - haystack-ai
+  - sentence-transformers
+  - llama-cpp-python
+  - pymupdf
+  - pydantic
+  - tqdm
+  - psutil
+  - cachetools
+  - transformers
+  - safetensors
+  - sentencepiece
+  - huggingface_hub
+  - matplotlib
+
   - pip
+  - pip:
+    - beir==2.2.0
+    - huggingface_hub[cli]
+
+  # Optional
+  # - gradio
+  # - requests
+
+  # FAISS db added
+  - faiss-haystack
