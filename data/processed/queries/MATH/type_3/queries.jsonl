@@ -1,0 +1,62 @@
+{"_id":"MATH_3_001","text":"What exact numeric answer does MATH3424 give for a made-up version of the lecture topic?","metadata":{"feature":"1","type":"3"}}
+{"_id":"MATH_3_002","text":"MATH3424 ch2 wat does Chapter 2. Simple Linear Regression - Proofs mean? giv short ans pls","metadata":{"feature":"2","type":"3"}}
+{"_id":"MATH_3_003","text":"MATH3424 ch3 did lecture say exact opposite of Chapter 2. Simple Linear Regression is always true? rly?","metadata":{"feature":"3","type":"3"}}
+{"_id":"MATH_3_004","text":"Was sagt MATH3424 in Kapitel 4 über Chapter 3. Multiple Linear Regression - Proofs? Bitte erklären Sie kurz.","metadata":{"feature":"4","type":"3"}}
+{"_id":"MATH_3_005","text":"Was ist die genaue Vorhersage von MATH3424 in Kapitel 5 für Chapter 3. Multiple Linear Regression im Jahr 2030?","metadata":{"feature":"5","type":"3"}}
+{"_id":"MATH_3_006","text":"MATH3424 ch6 wat sagt der lecture über ---- by Bradley Efron? kurze antwort pls","metadata":{"feature":"6","type":"3"}}
+{"_id":"MATH_3_007","text":"MATH3424 ch7 kann der lecture exact vorhersage für Chapter 5. Qualitative Variables as Predictors in 2030 geben? rly?","metadata":{"feature":"7","type":"3"}}
+{"_id":"MATH_3_008","text":"Why does MATH3424 ch1 say that the lecture topic matters for the regression result?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_009","text":"What causal mechanism does the lecture draw between 1.3 Steps in Regression Analysis and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_010","text":"Why does changing 1.3 Steps in Regression Analysis alter the behavior described in MATH3424 ch1?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_011","text":"What explanation does MATH3424 ch1 give for the effect of 1.4 Prerequisite I: Probability Distributions?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_012","text":"Why does 1.6 Prerequisite III: Elements of Matrix Algebra lead to the consequence shown in the example from MATH3424 ch1?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_013","text":"Why does MATH3424 ch2 say that Chapter 2. Simple Linear Regression - Proofs matters for the regression result?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_014","text":"What causal mechanism does the lecture draw between Chapter 2. Simple Linear Regression - Proofs and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_015","text":"Why does changing Chapter 2. Simple Linear Regression - Proofs alter the behavior described in MATH3424 ch2?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_016","text":"What explanation does MATH3424 ch2 give for the effect of Chapter 2. Simple Linear Regression - Proofs?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_017","text":"Why does Chapter 2. Simple Linear Regression - Proofs lead to the consequence shown in the example from MATH3424 ch2?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_018","text":"Why does MATH3424 ch3 say that Chapter 2. Simple Linear Regression matters for the regression result?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_019","text":"What causal mechanism does the lecture draw between 2.2 Simple Linear Regression Model and Parameter Estimation and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_020","text":"Why does changing 2.4. Prediction alter the behavior described in MATH3424 ch3?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_021","text":"What explanation does MATH3424 ch3 give for the effect of 2.7. An Example Using R?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_022","text":"Why does 2.7 An Example Using R lead to the consequence shown in the example from MATH3424 ch3?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_023","text":"Why does MATH3424 ch4 say that Chapter 3. Multiple Linear Regression - Proofs matters for the regression result?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_024","text":"What causal mechanism does the lecture draw between Chapter 3. Multiple Linear Regression - Proofs and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_025","text":"Why does changing This implies that the j-th entry of ˆβ also follows alter the behavior described in MATH3424 ch4?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_026","text":"What explanation does MATH3424 ch4 give for the effect of Chapter 3. Multiple Linear Regression - Proofs?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_027","text":"Why does Chapter 3. Multiple Linear Regression - Proofs lead to the consequence shown in the example from MATH3424 ch4?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_028","text":"Why does MATH3424 ch5 say that Chapter 3. Multiple Linear Regression matters for the regression result?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_029","text":"What causal mechanism does the lecture draw between 3.3 Centering and Scaling and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_030","text":"Why does changing 3.5 Inference for Individual Regression Coefficients alter the behavior described in MATH3424 ch5?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_031","text":"What explanation does MATH3424 ch5 give for the effect of 3.6 Test of Hypothesis in Linear Model and Prediction?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_032","text":"Why does 3.7 An Example Using R lead to the consequence shown in the example from MATH3424 ch5?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_033","text":"Why does MATH3424 ch6 say that ---- by Bradley Efron matters for the regression result?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_034","text":"What causal mechanism does the lecture draw between 4.2 Various Types of Residuals and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_035","text":"Why does changing 4.4. Checking Linearity and Normality Assumptions alter the behavior described in MATH3424 ch6?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_036","text":"What explanation does MATH3424 ch6 give for the effect of 4.5 Leverage, Influence and Outliers?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_037","text":"Why does 4.7 What to Do with the Outliers? lead to the consequence shown in the example from MATH3424 ch6?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_038","text":"Why does MATH3424 ch7 say that Chapter 5. Qualitative Variables as Predictors matters for the regression result?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_039","text":"What causal mechanism does the lecture draw between 5.2 Interaction Variables and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_040","text":"Why does changing 5.3 Systems of Regression Equations alter the behavior described in MATH3424 ch7?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_041","text":"What explanation does MATH3424 ch7 give for the effect of the lecture topic?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_042","text":"Why does Testing Hypothesis lead to the consequence shown in the example from MATH3424 ch7?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_043","text":"Why does MATH3424 ch8 say that Chapter 6. Transformation of Variables matters for the regression result?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_044","text":"What causal mechanism does the lecture draw between 6.2 Example: Bacteria Death Due to X-Ray Radiation and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_045","text":"Why does changing 6.3 Transformations to Stabilize Variance alter the behavior described in MATH3424 ch8?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_046","text":"What explanation does MATH3424 ch8 give for the effect of 6.5 Weighted Least Squares?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_047","text":"Why does 6.6 Logarithmic Transformation and Power Transformation lead to the consequence shown in the example from MATH3424 ch8?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_048","text":"Why does MATH3424 ch9 say that Chapter 7. Correlated Errors and Collinear Data matters for the regression result?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_049","text":"What causal mechanism does the lecture draw between 7.2 Correlated Errors: Durbin-Watson statistic and removal of autocorrelation and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_050","text":"Why does changing Example alter the behavior described in MATH3424 ch9?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_051","text":"What explanation does MATH3424 ch9 give for the effect of Use R for last example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_052","text":"Why does Use R Codes lead to the consequence shown in the example from MATH3424 ch9?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_053","text":"Why does MATH3424 ch10 say that Chapter 8. Variable/Model Selection matters for the regression result?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_054","text":"What causal mechanism does the lecture draw between 8.1 Motivation and Consequences of Variable Selection and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_055","text":"Why does changing 8.3 Criteria for Evaluating Equations alter the behavior described in MATH3424 ch10?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_056","text":"What explanation does MATH3424 ch10 give for the effect of 8.5 Variable Selection Procedures?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_057","text":"Why does 8.6 A study of Supervisor Performance lead to the consequence shown in the example from MATH3424 ch10?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_058","text":"Why does MATH3424 ch11 say that Chapter 9. Logistic Regression matters for the regression result?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_059","text":"What causal mechanism does the lecture draw between 9.1 The Logit Model and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_060","text":"Why does changing 9.4 Determination of Variables to Retain alter the behavior described in MATH3424 ch11?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_061","text":"What explanation does MATH3424 ch11 give for the effect of 9.6 The Multinomial Logit Model?","metadata":{"feature":"0","type":"3"}}
+{"_id":"MATH_3_062","text":"Why does 9.7 Working with R lead to the consequence shown in the example from MATH3424 ch11?","metadata":{"feature":"0","type":"3"}}

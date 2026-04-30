@@ -7,26 +7,17 @@ Install conda, and execute following:
 ```
 conda env create -f conda_env_setup.yml
 conda activate CourseQARAG
+bash scripts/setup_conda_env.sh CourseQARAG
 ```
 
 ## GPU Acceleration (Optional but Recommended)
 
-By default, the setup will use the CPU for embeddings and LLM inference. The pipeline is designed to automatically detect and use your GPU if it's properly configured. To enable GPU acceleration, follow these additional steps:
+The bootstrap script now detects whether CUDA is available and installs the matching PyTorch wheel plus a CUDA-enabled `llama-cpp-python` build when possible. If no GPU is detected, it keeps the CPU-only stack.
 
-**1. Install PyTorch with CUDA:**
-Depending on your CUDA version (e.g., CUDA 12.1), install the corresponding PyTorch build to allow `sentence-transformers` to use your GPU:
+If you want to rerun just the environment bootstrap later:
 ```bash
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+bash scripts/setup_conda_env.sh CourseQARAG
 ```
-
-**2. Rebuild llama-cpp-python for GPU:**
-The default installation of `llama-cpp-python` only uses the CPU. If you have an NVIDIA GPU, you need to reinstall it with cuBLAS support (requires NVIDIA CUDA Toolkit and C++ Build Tools installed):
-```cmd
-set CMAKE_ARGS="-DLLAMA_CUBLAS=ON"
-set FORCE_CMAKE=1
-pip install --upgrade --force-reinstall llama-cpp-python --no-cache-dir
-```
-Once these are installed, the scripts will automatically detect your GPU and offload processing for much faster generation!
 
 ## Quantization Script Guide
 

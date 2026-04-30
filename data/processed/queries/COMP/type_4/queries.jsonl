@@ -1,0 +1,164 @@
+{"_id":"COMP_4_001","text":"What exact numeric answer does COMP2011 give for a made-up version of C++ Basics I?","metadata":{"feature":"1","type":"4"}}
+{"_id":"COMP_4_002","text":"Please state the precise number for Object-Oriented Programming in COMP2012, even if the lecture never gives one.","metadata":{"feature":"1","type":"4"}}
+{"_id":"COMP_4_003","text":"COMP2011 ch1 what does C++ Basics I mean? Please explain briefly.","metadata":{"feature":"2","type":"4"}}
+{"_id":"COMP_4_004","text":"COMP2012 ch1 says Object-Oriented Programming? The wording is messy, but give the short answer.","metadata":{"feature":"2","type":"4"}}
+{"_id":"COMP_4_005","text":"Does COMP2011 ch1 say that the opposite of C++ Basics I is always correct?","metadata":{"feature":"3","type":"4"}}
+{"_id":"COMP_4_006","text":"Did the lecture claim Object-Oriented Programming has no role at all in the result?","metadata":{"feature":"3","type":"4"}}
+{"_id":"COMP_4_007","text":"In COMP2011 ch1, how is C++ Basics I used?","metadata":{"feature":"4","type":"4"}}
+{"_id":"COMP_4_008","text":"Use the content of COMP2012 ch1 to explain Object-Oriented Programming.","metadata":{"feature":"4","type":"4"}}
+{"_id":"COMP_4_009","text":"If C++ Basics I and two extra constraints all have to hold, what exact answer would the lecture produce?","metadata":{"feature":"5","type":"4"}}
+{"_id":"COMP_4_010","text":"When Object-Oriented Programming is mixed with another restriction and a numeric condition, what result should we get?","metadata":{"feature":"5","type":"4"}}
+{"_id":"COMP_4_011","text":"Can you explain C++ Basics I from COMP2011 ch1 in plain English and code-like shorthand?","metadata":{"feature":"6","type":"4"}}
+{"_id":"COMP_4_012","text":"COMP2012 ch1, please give the Object-Oriented Programming idea with a short mix of English and symbols.","metadata":{"feature":"6","type":"4"}}
+{"_id":"COMP_4_013","text":"Would COMP2011 guarantee a future outcome for C++ Basics I if the conditions keep changing?","metadata":{"feature":"7","type":"4"}}
+{"_id":"COMP_4_014","text":"If the future flips, what would COMP2012 predict about Object-Oriented Programming?","metadata":{"feature":"7","type":"4"}}
+{"_id":"COMP_4_015","text":"How do you apply the rule about C++ Basics I in COMP2011 ch1?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_016","text":"How should you work through the example around #include and User-defined Header Files?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_017","text":"How do you check whether the condition in Motivation Example: Addition of 2 Numbers Again is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_018","text":"How do you use the lecture procedure for Assignment Operator to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_019","text":"How can you follow the steps shown for Expression and Statement?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_020","text":"How do you apply the rule about Program Flow Control I in COMP2011 ch2?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_021","text":"How should you work through the example around Conversion to Letter Grade?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_022","text":"How do you check whether the condition in \"Dangling else\" Problem is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_023","text":"How do you use the lecture procedure for Continuously Halving a float Number .. to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_024","text":"How can you follow the steps shown for Remarks on for Statement?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_025","text":"How do you apply the rule about C++ Basics II in COMP2011 ch3?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_026","text":"How should you work through the example around Output Boolean Values?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_027","text":"How do you check whether the condition in Manual Type Conversion (Casting) is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_028","text":"How do you use the lecture procedure for Further Readings and Examples to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_029","text":"How can you follow the steps shown for Priority Rules for the Usual Arithmetic Conversions for?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_030","text":"How do you apply the rule about Program Flow Control II in COMP2011 ch4?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_031","text":"How should you work through the example around Ignore Negative Inputs with continue?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_032","text":"How do you check whether the condition in switch with Sharing Cases is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_033","text":"How do you use the lecture procedure for Further Readings and Examples to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_034","text":"How can you follow the steps shown for More enum Example: Mixing Colors?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_035","text":"How do you apply the rule about Examples on in COMP2011 ch5?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_036","text":"How should you work through the example around Typical Output?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_037","text":"How do you check whether the condition in The Count Animals Problem is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_038","text":"How do you use the lecture procedure for Program Requirements to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_039","text":"How can you follow the steps shown for A Row of RATs?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_040","text":"How do you apply the rule about Function I in COMP2011 ch6?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_041","text":"How should you work through the example around Euclidean Distance?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_042","text":"How do you check whether the condition in Parameter Passing Methods is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_043","text":"How do you use the lecture procedure for Remarks .. to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_044","text":"How can you follow the steps shown for Rock/Paper/Scissors Game - other Functions ..?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_045","text":"How do you apply the rule about Array - a Collection of in COMP2011 ch7?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_046","text":"How should you work through the example around Array Initialization?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_047","text":"How do you check whether the condition in Constant Array is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_048","text":"How do you use the lecture procedure for C++ N-dimensional Array to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_049","text":"How can you follow the steps shown for Palindrome?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_050","text":"How do you apply the rule about Function II - Recursion in COMP2011 ch8?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_051","text":"How should you work through the example around Implement Recursion by Recursive Function?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_052","text":"How do you check whether the condition in Non-Recursive Fibonacci Function is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_053","text":"How do you use the lecture procedure for Disadvantages of Recursion to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_054","text":"How can you follow the steps shown for Factoring?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_055","text":"How do you apply the rule about Scope in COMP2011 ch9?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_056","text":"How should you work through the example around File/Function/Block Scope?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_057","text":"How do you check whether the condition in Block Scope is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_058","text":"How do you use the lecture procedure for Identifiers of the Same Name .. to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_059","text":"How can you follow the steps shown for Quiz: Which j applies to S7??","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_060","text":"How do you apply the rule about Structure - a Collection of in COMP2011 ch10?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_061","text":"How should you work through the example around Access struct Members by the . Operator?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_062","text":"How do you check whether the condition in Student Record - student-record.h is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_063","text":"How do you use the lecture procedure for Array of Structures to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_064","text":"How can you follow the steps shown for Return by Reference Again?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_065","text":"How do you apply the rule about C++ Function III in COMP2011 ch11?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_066","text":"How should you work through the example around Function Declaration vs. Definition?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_067","text":"How do you check whether the condition in Declare Functions Locally is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_068","text":"How do you use the lecture procedure for Invalid Function Overloading to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_069","text":"How can you follow the steps shown for Increment with Default Argument?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_070","text":"How do you apply the rule about Pointers & Dynamic Data in COMP2011 ch12?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_071","text":"How should you work through the example around Euclidean Distance Again - point-test.cpp?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_072","text":"How do you check whether the condition in Common Operations on a Linked List is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_073","text":"How do you use the lecture procedure for Dynamic 1D Array .. to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_074","text":"How can you follow the steps shown for Binary Tree - btree-print.cpp?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_075","text":"How do you apply the rule about C++ Class in COMP2011 ch13?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_076","text":"How should you work through the example around OOP!?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_077","text":"How do you check whether the condition in Information Hiding Rules is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_078","text":"How do you use the lecture procedure for Inline Class Member Functions to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_079","text":"How can you follow the steps shown for lamp.cpp?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_080","text":"How do you apply the rule about Data Structures - in COMP2011 ch14?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_081","text":"How should you work through the example around Stack: How it Works?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_082","text":"How do you check whether the condition in Stack of int Data - Constructors, Assessors is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_083","text":"How do you use the lecture procedure for Circular Queue of int Data - Illustration to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_084","text":"How can you follow the steps shown for Circular Queue of int Data - Mutators?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_085","text":"How do you apply the rule about Some New Features in in COMP2011 ch15?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_086","text":"How should you work through the example around Initializer Example 1?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_087","text":"How do you check whether the condition in for-Statements is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_088","text":"How do you use the lecture procedure for Lambdas with Captures to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_089","text":"How can you follow the steps shown for Mutable Lambda with Return?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_090","text":"How do you apply the rule about File I/O in COMP2011 ch16?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_091","text":"How should you work through the example around C++ Stream?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_092","text":"How do you check whether the condition in Interactive Stream: iostream is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_093","text":"How do you use the lecture procedure for File Copy to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_094","text":"How can you follow the steps shown for Read an Array of Integers ..?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_095","text":"How do you apply the rule about Separate Compilation in COMP2011 ch17?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_096","text":"How should you work through the example around Solution #1: Separate Compilation - main( )?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_097","text":"How do you check whether the condition in Definition vs. Declaration is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_098","text":"How do you use the lecture procedure for Header Files to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_099","text":"How can you follow the steps shown for Header Files of the Standard C++ Libraries?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_100","text":"How do you apply the rule about C++ String Class in COMP2011 ch18?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_101","text":"How should you work through the example around Constructors?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_102","text":"How do you check whether the condition in Accessing Individual Characters is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_103","text":"How do you use the lecture procedure for Substrings to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_104","text":"How can you follow the steps shown for Find and Replace ..?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_105","text":"How do you apply the rule about Object-Oriented Programming in COMP2012 ch1?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_106","text":"How should you work through the example around Range-for Example?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_107","text":"How do you check whether the condition in Class Data Members is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_108","text":"How do you use the lecture procedure for const-ness to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_109","text":"How can you follow the steps shown for Summary?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_110","text":"How do you apply the rule about Object-Oriented Programming in COMP2012 ch2?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_111","text":"How should you work through the example around Return-by-Value =>Copy Constructor?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_112","text":"How do you check whether the condition in Member Initializer List (MIL) is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_113","text":"How do you use the lecture procedure for Bug: Default Memberwise Assignment to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_114","text":"How can you follow the steps shown for Summary?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_115","text":"How do you apply the rule about Object-Oriented Programming in COMP2012 ch3?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_116","text":"How should you work through the example around Order of Cons/Destruction: Student w/ an Address?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_117","text":"How do you check whether the condition in Virtual Function: UPerson Class is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_118","text":"How do you use the lecture procedure for ABC Example: Assets to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_119","text":"How can you follow the steps shown for Inheritance: Summary ..?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_120","text":"How do you apply the rule about Object-Oriented Programming in COMP2012 ch4?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_121","text":"How should you work through the example around Class Template for Nodes of a List?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_122","text":"How do you check whether the condition in Global Non-member Operator<< Function ... is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_123","text":"How do you use the lecture procedure for Friend Functions or Classes to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_124","text":"How can you follow the steps shown for larger Template w/ Multiple Arguments II ..?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_125","text":"How do you apply the rule about Object-Oriented Programming in COMP2012 ch5?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_126","text":"How should you work through the example around Lambdas with Captures?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_127","text":"How do you check whether the condition in Capture by Value or Reference is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_128","text":"How do you use the lecture procedure for Function Pointer to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_129","text":"How can you follow the steps shown for Further Reading: Nested Lambda?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_130","text":"How do you apply the rule about Object-Oriented Programming in COMP2012 ch6?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_131","text":"How should you work through the example around Binary Trees?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_132","text":"How do you check whether the condition in BST Example and Counter-Example is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_133","text":"How do you use the lecture procedure for BST Code: Find the Maximum Stored Value to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_134","text":"How can you follow the steps shown for BST Testing Code ..?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_135","text":"How do you apply the rule about Object-Oriented Programming in COMP2012 ch7?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_136","text":"How should you work through the example around Hash Function ..?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_137","text":"How do you check whether the condition in Separate Chaining Operations is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_138","text":"How do you use the lecture procedure for Quadratic Probing to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_139","text":"How can you follow the steps shown for Re-hashing?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_140","text":"How do you apply the rule about Object-Oriented Programming in COMP2012 ch8?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_141","text":"How should you work through the example around Class Word: word.h ..?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_142","text":"How do you check whether the condition in Temporary Word Objects and rvalue Reference: Quiz is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_143","text":"How do you use the lecture procedure for std::move( ) Example: word-pair.h to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_144","text":"How can you follow the steps shown for std::move( ) Example: word-pair2.cpp Output?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_145","text":"How do you apply the rule about Object-Oriented Programming in COMP2012 ch9?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_146","text":"How should you work through the example around COMP 2011 Example: bulb.cpp?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_147","text":"How do you check whether the condition in Linking Object Files is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_148","text":"How do you use the lecture procedure for A Smarter Makefile to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_149","text":"How can you follow the steps shown for #ifndef, #define, #endif?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_150","text":"How do you apply the rule about Object-Oriented Programming in COMP2012 ch10?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_151","text":"How should you work through the example around Solution: namespace?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_152","text":"How do you check whether the condition in using Declaration is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_153","text":"How do you use the lecture procedure for How Should We Declare Namespaces? to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_154","text":"How can you follow the steps shown for Namespace Is Expansible?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_155","text":"How do you apply the rule about Object-Oriented Programming in COMP2012 ch11?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_156","text":"How should you work through the example around Students Study for an Exam By Memorizing?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_157","text":"How do you check whether the condition in Students Cheat by Collective Memory is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_158","text":"How do you use the lecture procedure for Class Clock With Static Methods - clock-test.cpp to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_159","text":"How can you follow the steps shown for Static Data Members and Member Function / Method?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_160","text":"How do you apply the rule about Object-Oriented Programming in COMP2012 ch12?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_161","text":"How should you work through the example around Some Properties of STL Sequence Containers?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_162","text":"How do you check whether the condition in Queue of int Data is satisfied?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_163","text":"How do you use the lecture procedure for STL find( ) the 2nd Occurrence of a to solve a problem?","metadata":{"feature":"0","type":"4"}}
+{"_id":"COMP_4_164","text":"How can you follow the steps shown for Other Algorithms in the STL?","metadata":{"feature":"0","type":"4"}}

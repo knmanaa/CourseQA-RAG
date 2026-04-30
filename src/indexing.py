@@ -41,7 +41,8 @@ def run_indexing():
     print(f"Start indexing {len(files)} files: {files}")
 
     # ====================== INIT COMPONENTS ======================
-    document_store = get_document_store()
+    rebuild_index = os.getenv("COURSEQA_REBUILD_INDEX", "1") == "1"
+    document_store = get_document_store(reset=rebuild_index)
     
     file_type_router = FileTypeRouter(mime_types=["text/plain", "application/pdf", "application/json"])
     text_converter = TextFileToDocument()

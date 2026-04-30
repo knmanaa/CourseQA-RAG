@@ -41,7 +41,7 @@ def extract_table(page: pdf.Page) -> list[list[list[str]]]:
         return result
     
 
-def make_one_course_dict(notes_path: str, course_json_target_path = "/shared/project/CourseQA-RAG/dataset/datasets/courses") -> Dict:
+def make_one_course_dict(notes_path: str, course_json_target_path = "/shared/project/CourseQA-RAG/data/raw") -> Dict:
 
     course_dict = {}
     for doc_path in Path(notes_path).iterdir(): # iterate each chapter
@@ -63,7 +63,7 @@ def make_one_course_dict(notes_path: str, course_json_target_path = "/shared/pro
 
     return course_dict
 
-def make_many_course_dict(courses_path = "/shared/project/CourseQA-RAG/data/raw/lectures", course_json_target_path = "/shared/project/CourseQA-RAG/dataset/datasets/courses"):
+def make_many_course_dict(courses_path = "/shared/project/CourseQA-RAG/data/raw/lectures", course_json_target_path = "/shared/project/CourseQA-RAG/data/raw"):
     courses_path = Path(courses_path)
 
     result = {}
@@ -79,3 +79,12 @@ def make_many_course_dict(courses_path = "/shared/project/CourseQA-RAG/data/raw/
         json.dump(result, f, indent = 4)
 
     return result
+
+def make_course_corpus(all_course_json_path = "/shared/project/CourseQA-RAG/data/raw/all_courses.json", target_jsonl_path = "/shared/project/CourseQA-RAG/data/processed"):
+    with open(all_course_json_path, "r") as f:
+        dt = json.load(f)
+
+        with open(Path(target_jsonl_path) / "corpus.jsonl", "w") as t:
+            for k, v in zip(dt.keys(), dt.values()):
+                json.dump({"_id": k, "text": v}, t)
+                t.write("\n")

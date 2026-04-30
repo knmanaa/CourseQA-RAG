@@ -1,0 +1,164 @@
+{"_id":"COMP_1_001","text":"What exact numeric answer does COMP2011 give for a made-up version of C++ Basics I?","metadata":{"feature":"1","type":"1"}}
+{"_id":"COMP_1_002","text":"Please state the precise number for Object-Oriented Programming in COMP2012, even if the lecture never gives one.","metadata":{"feature":"1","type":"1"}}
+{"_id":"COMP_1_003","text":"COMP2011 ch1 what does C++ Basics I mean? Please explain briefly.","metadata":{"feature":"2","type":"1"}}
+{"_id":"COMP_1_004","text":"COMP2012 ch1 says Object-Oriented Programming? The wording is messy, but give the short answer.","metadata":{"feature":"2","type":"1"}}
+{"_id":"COMP_1_005","text":"Does COMP2011 ch1 say that the opposite of C++ Basics I is always correct?","metadata":{"feature":"3","type":"1"}}
+{"_id":"COMP_1_006","text":"Did the lecture claim Object-Oriented Programming has no role at all in the result?","metadata":{"feature":"3","type":"1"}}
+{"_id":"COMP_1_007","text":"In COMP2011 ch1, how is C++ Basics I used?","metadata":{"feature":"4","type":"1"}}
+{"_id":"COMP_1_008","text":"Use the content of COMP2012 ch1 to explain Object-Oriented Programming.","metadata":{"feature":"4","type":"1"}}
+{"_id":"COMP_1_009","text":"If C++ Basics I and two extra constraints all have to hold, what exact answer would the lecture produce?","metadata":{"feature":"5","type":"1"}}
+{"_id":"COMP_1_010","text":"When Object-Oriented Programming is mixed with another restriction and a numeric condition, what result should we get?","metadata":{"feature":"5","type":"1"}}
+{"_id":"COMP_1_011","text":"Can you explain C++ Basics I from COMP2011 ch1 in plain English and code-like shorthand?","metadata":{"feature":"6","type":"1"}}
+{"_id":"COMP_1_012","text":"COMP2012 ch1, please give the Object-Oriented Programming idea with a short mix of English and symbols.","metadata":{"feature":"6","type":"1"}}
+{"_id":"COMP_1_013","text":"Would COMP2011 guarantee a future outcome for C++ Basics I if the conditions keep changing?","metadata":{"feature":"7","type":"1"}}
+{"_id":"COMP_1_014","text":"If the future flips, what would COMP2012 predict about Object-Oriented Programming?","metadata":{"feature":"7","type":"1"}}
+{"_id":"COMP_1_015","text":"In COMP2011 ch1, what is the main idea of C++ Basics I?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_016","text":"According to COMP2011 ch1, how is #include and User-defined Header Files introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_017","text":"What example does COMP2011 ch1 use for Motivation Example: Addition of 2 Numbers Again?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_018","text":"Which rule or property is highlighted in COMP2011 ch1 around Assignment Operator?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_019","text":"What takeaway should a student remember from Expression and Statement in COMP2011 ch1?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_020","text":"In COMP2011 ch2, what is the main idea of Program Flow Control I?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_021","text":"According to COMP2011 ch2, how is Conversion to Letter Grade introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_022","text":"What example does COMP2011 ch2 use for \"Dangling else\" Problem?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_023","text":"Which rule or property is highlighted in COMP2011 ch2 around Continuously Halving a float Number ..?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_024","text":"What takeaway should a student remember from Remarks on for Statement in COMP2011 ch2?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_025","text":"In COMP2011 ch3, what is the main idea of C++ Basics II?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_026","text":"According to COMP2011 ch3, how is Output Boolean Values introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_027","text":"What example does COMP2011 ch3 use for Manual Type Conversion (Casting)?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_028","text":"Which rule or property is highlighted in COMP2011 ch3 around Further Readings and Examples?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_029","text":"What takeaway should a student remember from Priority Rules for the Usual Arithmetic Conversions for in COMP2011 ch3?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_030","text":"In COMP2011 ch4, what is the main idea of Program Flow Control II?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_031","text":"According to COMP2011 ch4, how is Ignore Negative Inputs with continue introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_032","text":"What example does COMP2011 ch4 use for switch with Sharing Cases?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_033","text":"Which rule or property is highlighted in COMP2011 ch4 around Further Readings and Examples?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_034","text":"What takeaway should a student remember from More enum Example: Mixing Colors in COMP2011 ch4?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_035","text":"In COMP2011 ch5, what is the main idea of Examples on?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_036","text":"According to COMP2011 ch5, how is Typical Output introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_037","text":"What example does COMP2011 ch5 use for The Count Animals Problem?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_038","text":"Which rule or property is highlighted in COMP2011 ch5 around Program Requirements?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_039","text":"What takeaway should a student remember from A Row of RATs in COMP2011 ch5?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_040","text":"In COMP2011 ch6, what is the main idea of Function I?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_041","text":"According to COMP2011 ch6, how is Euclidean Distance introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_042","text":"What example does COMP2011 ch6 use for Parameter Passing Methods?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_043","text":"Which rule or property is highlighted in COMP2011 ch6 around Remarks ..?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_044","text":"What takeaway should a student remember from Rock/Paper/Scissors Game - other Functions .. in COMP2011 ch6?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_045","text":"In COMP2011 ch7, what is the main idea of Array - a Collection of?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_046","text":"According to COMP2011 ch7, how is Array Initialization introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_047","text":"What example does COMP2011 ch7 use for Constant Array?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_048","text":"Which rule or property is highlighted in COMP2011 ch7 around C++ N-dimensional Array?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_049","text":"What takeaway should a student remember from Palindrome in COMP2011 ch7?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_050","text":"In COMP2011 ch8, what is the main idea of Function II - Recursion?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_051","text":"According to COMP2011 ch8, how is Implement Recursion by Recursive Function introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_052","text":"What example does COMP2011 ch8 use for Non-Recursive Fibonacci Function?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_053","text":"Which rule or property is highlighted in COMP2011 ch8 around Disadvantages of Recursion?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_054","text":"What takeaway should a student remember from Factoring in COMP2011 ch8?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_055","text":"In COMP2011 ch9, what is the main idea of Scope?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_056","text":"According to COMP2011 ch9, how is File/Function/Block Scope introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_057","text":"What example does COMP2011 ch9 use for Block Scope?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_058","text":"Which rule or property is highlighted in COMP2011 ch9 around Identifiers of the Same Name ..?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_059","text":"What takeaway should a student remember from Quiz: Which j applies to S7? in COMP2011 ch9?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_060","text":"In COMP2011 ch10, what is the main idea of Structure - a Collection of?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_061","text":"According to COMP2011 ch10, how is Access struct Members by the . Operator introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_062","text":"What example does COMP2011 ch10 use for Student Record - student-record.h?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_063","text":"Which rule or property is highlighted in COMP2011 ch10 around Array of Structures?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_064","text":"What takeaway should a student remember from Return by Reference Again in COMP2011 ch10?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_065","text":"In COMP2011 ch11, what is the main idea of C++ Function III?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_066","text":"According to COMP2011 ch11, how is Function Declaration vs. Definition introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_067","text":"What example does COMP2011 ch11 use for Declare Functions Locally?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_068","text":"Which rule or property is highlighted in COMP2011 ch11 around Invalid Function Overloading?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_069","text":"What takeaway should a student remember from Increment with Default Argument in COMP2011 ch11?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_070","text":"In COMP2011 ch12, what is the main idea of Pointers & Dynamic Data?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_071","text":"According to COMP2011 ch12, how is Euclidean Distance Again - point-test.cpp introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_072","text":"What example does COMP2011 ch12 use for Common Operations on a Linked List?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_073","text":"Which rule or property is highlighted in COMP2011 ch12 around Dynamic 1D Array ..?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_074","text":"What takeaway should a student remember from Binary Tree - btree-print.cpp in COMP2011 ch12?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_075","text":"In COMP2011 ch13, what is the main idea of C++ Class?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_076","text":"According to COMP2011 ch13, how is OOP! introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_077","text":"What example does COMP2011 ch13 use for Information Hiding Rules?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_078","text":"Which rule or property is highlighted in COMP2011 ch13 around Inline Class Member Functions?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_079","text":"What takeaway should a student remember from lamp.cpp in COMP2011 ch13?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_080","text":"In COMP2011 ch14, what is the main idea of Data Structures -?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_081","text":"According to COMP2011 ch14, how is Stack: How it Works introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_082","text":"What example does COMP2011 ch14 use for Stack of int Data - Constructors, Assessors?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_083","text":"Which rule or property is highlighted in COMP2011 ch14 around Circular Queue of int Data - Illustration?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_084","text":"What takeaway should a student remember from Circular Queue of int Data - Mutators in COMP2011 ch14?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_085","text":"In COMP2011 ch15, what is the main idea of Some New Features in?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_086","text":"According to COMP2011 ch15, how is Initializer Example 1 introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_087","text":"What example does COMP2011 ch15 use for for-Statements?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_088","text":"Which rule or property is highlighted in COMP2011 ch15 around Lambdas with Captures?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_089","text":"What takeaway should a student remember from Mutable Lambda with Return in COMP2011 ch15?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_090","text":"In COMP2011 ch16, what is the main idea of File I/O?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_091","text":"According to COMP2011 ch16, how is C++ Stream introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_092","text":"What example does COMP2011 ch16 use for Interactive Stream: iostream?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_093","text":"Which rule or property is highlighted in COMP2011 ch16 around File Copy?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_094","text":"What takeaway should a student remember from Read an Array of Integers .. in COMP2011 ch16?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_095","text":"In COMP2011 ch17, what is the main idea of Separate Compilation?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_096","text":"According to COMP2011 ch17, how is Solution #1: Separate Compilation - main( ) introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_097","text":"What example does COMP2011 ch17 use for Definition vs. Declaration?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_098","text":"Which rule or property is highlighted in COMP2011 ch17 around Header Files?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_099","text":"What takeaway should a student remember from Header Files of the Standard C++ Libraries in COMP2011 ch17?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_100","text":"In COMP2011 ch18, what is the main idea of C++ String Class?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_101","text":"According to COMP2011 ch18, how is Constructors introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_102","text":"What example does COMP2011 ch18 use for Accessing Individual Characters?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_103","text":"Which rule or property is highlighted in COMP2011 ch18 around Substrings?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_104","text":"What takeaway should a student remember from Find and Replace .. in COMP2011 ch18?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_105","text":"In COMP2012 ch1, what is the main idea of Object-Oriented Programming?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_106","text":"According to COMP2012 ch1, how is Range-for Example introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_107","text":"What example does COMP2012 ch1 use for Class Data Members?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_108","text":"Which rule or property is highlighted in COMP2012 ch1 around const-ness?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_109","text":"What takeaway should a student remember from Summary in COMP2012 ch1?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_110","text":"In COMP2012 ch2, what is the main idea of Object-Oriented Programming?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_111","text":"According to COMP2012 ch2, how is Return-by-Value =>Copy Constructor introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_112","text":"What example does COMP2012 ch2 use for Member Initializer List (MIL)?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_113","text":"Which rule or property is highlighted in COMP2012 ch2 around Bug: Default Memberwise Assignment?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_114","text":"What takeaway should a student remember from Summary in COMP2012 ch2?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_115","text":"In COMP2012 ch3, what is the main idea of Object-Oriented Programming?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_116","text":"According to COMP2012 ch3, how is Order of Cons/Destruction: Student w/ an Address introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_117","text":"What example does COMP2012 ch3 use for Virtual Function: UPerson Class?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_118","text":"Which rule or property is highlighted in COMP2012 ch3 around ABC Example: Assets?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_119","text":"What takeaway should a student remember from Inheritance: Summary .. in COMP2012 ch3?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_120","text":"In COMP2012 ch4, what is the main idea of Object-Oriented Programming?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_121","text":"According to COMP2012 ch4, how is Class Template for Nodes of a List introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_122","text":"What example does COMP2012 ch4 use for Global Non-member Operator<< Function ...?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_123","text":"Which rule or property is highlighted in COMP2012 ch4 around Friend Functions or Classes?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_124","text":"What takeaway should a student remember from larger Template w/ Multiple Arguments II .. in COMP2012 ch4?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_125","text":"In COMP2012 ch5, what is the main idea of Object-Oriented Programming?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_126","text":"According to COMP2012 ch5, how is Lambdas with Captures introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_127","text":"What example does COMP2012 ch5 use for Capture by Value or Reference?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_128","text":"Which rule or property is highlighted in COMP2012 ch5 around Function Pointer?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_129","text":"What takeaway should a student remember from Further Reading: Nested Lambda in COMP2012 ch5?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_130","text":"In COMP2012 ch6, what is the main idea of Object-Oriented Programming?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_131","text":"According to COMP2012 ch6, how is Binary Trees introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_132","text":"What example does COMP2012 ch6 use for BST Example and Counter-Example?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_133","text":"Which rule or property is highlighted in COMP2012 ch6 around BST Code: Find the Maximum Stored Value?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_134","text":"What takeaway should a student remember from BST Testing Code .. in COMP2012 ch6?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_135","text":"In COMP2012 ch7, what is the main idea of Object-Oriented Programming?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_136","text":"According to COMP2012 ch7, how is Hash Function .. introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_137","text":"What example does COMP2012 ch7 use for Separate Chaining Operations?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_138","text":"Which rule or property is highlighted in COMP2012 ch7 around Quadratic Probing?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_139","text":"What takeaway should a student remember from Re-hashing in COMP2012 ch7?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_140","text":"In COMP2012 ch8, what is the main idea of Object-Oriented Programming?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_141","text":"According to COMP2012 ch8, how is Class Word: word.h .. introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_142","text":"What example does COMP2012 ch8 use for Temporary Word Objects and rvalue Reference: Quiz?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_143","text":"Which rule or property is highlighted in COMP2012 ch8 around std::move( ) Example: word-pair.h?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_144","text":"What takeaway should a student remember from std::move( ) Example: word-pair2.cpp Output in COMP2012 ch8?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_145","text":"In COMP2012 ch9, what is the main idea of Object-Oriented Programming?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_146","text":"According to COMP2012 ch9, how is COMP 2011 Example: bulb.cpp introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_147","text":"What example does COMP2012 ch9 use for Linking Object Files?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_148","text":"Which rule or property is highlighted in COMP2012 ch9 around A Smarter Makefile?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_149","text":"What takeaway should a student remember from #ifndef, #define, #endif in COMP2012 ch9?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_150","text":"In COMP2012 ch10, what is the main idea of Object-Oriented Programming?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_151","text":"According to COMP2012 ch10, how is Solution: namespace introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_152","text":"What example does COMP2012 ch10 use for using Declaration?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_153","text":"Which rule or property is highlighted in COMP2012 ch10 around How Should We Declare Namespaces??","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_154","text":"What takeaway should a student remember from Namespace Is Expansible in COMP2012 ch10?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_155","text":"In COMP2012 ch11, what is the main idea of Object-Oriented Programming?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_156","text":"According to COMP2012 ch11, how is Students Study for an Exam By Memorizing introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_157","text":"What example does COMP2012 ch11 use for Students Cheat by Collective Memory?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_158","text":"Which rule or property is highlighted in COMP2012 ch11 around Class Clock With Static Methods - clock-test.cpp?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_159","text":"What takeaway should a student remember from Static Data Members and Member Function / Method in COMP2012 ch11?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_160","text":"In COMP2012 ch12, what is the main idea of Object-Oriented Programming?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_161","text":"According to COMP2012 ch12, how is Some Properties of STL Sequence Containers introduced?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_162","text":"What example does COMP2012 ch12 use for Queue of int Data?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_163","text":"Which rule or property is highlighted in COMP2012 ch12 around STL find( ) the 2nd Occurrence of a?","metadata":{"feature":"0","type":"1"}}
+{"_id":"COMP_1_164","text":"What takeaway should a student remember from Other Algorithms in the STL in COMP2012 ch12?","metadata":{"feature":"0","type":"1"}}

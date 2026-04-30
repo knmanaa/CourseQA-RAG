@@ -84,6 +84,7 @@ _PARA_RE = re.compile(r'\n\s*\n')
 _CLEANUP_RE = re.compile(
     r'(\x0c'                    # form-feed (page break marker from PyMuPDF)
     r'|\u00ad'                  # soft hyphen
+    r'|[\uF000-\uF8FF]'        # private-use glyphs (common PDF bullets/icons)
     r'|(?<!\n)\n(?!\n)'         # single newline inside a paragraph → space
     r')',
     re.UNICODE,

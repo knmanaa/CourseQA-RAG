@@ -3,9 +3,16 @@ from haystack_integrations.document_stores.faiss import FAISSDocumentStore
 
 FAISS_DIR = os.path.join("data", "faiss_store")
 FAISS_INDEX_PATH = os.path.join(FAISS_DIR, "faiss_index.faiss")
+FAISS_CONFIG_PATH = os.path.join(FAISS_DIR, "faiss_index.json")
 
-def get_document_store() -> FAISSDocumentStore:
+def get_document_store(reset: bool = False) -> FAISSDocumentStore:
     """Returns the FAISSDocumentStore. Loads it if it exists on disk, otherwise creates it."""
+    if reset:
+        for path in (FAISS_INDEX_PATH, FAISS_CONFIG_PATH):
+            if os.path.exists(path):
+                os.remove(path)
+        print("Reset existing FAISS store files.")
+
     store = FAISSDocumentStore(embedding_dim=384)
     if os.path.exists(FAISS_INDEX_PATH):
         print(f"Loading existing FAISS index from {FAISS_INDEX_PATH}")

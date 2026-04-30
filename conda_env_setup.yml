@@ -1,33 +1,7 @@
-name: CourseQARAG
+name: testing
 channels:
   - defaults
   - conda-forge
 dependencies:
   - python=3.11
-  - haystack-ai
-  - sentence-transformers
-  - llama-cpp-python
-  - pymupdf
-  - pydantic
-  - tqdm
-  - psutil
-  - cachetools
-  - transformers
-  - safetensors
-  - sentencepiece
-  - huggingface_hub
-  - matplotlib
-
-  # FAISS db added
-  - faiss-haystack
-  - llama-cpp-haystack
-  - pypdf
-
   - pip
-  - pip:
-    - beir==2.2.0
-    - huggingface_hub[cli]
-
-  # Optional
-  # - gradio
-  # - requests
