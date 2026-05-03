@@ -1,0 +1,62 @@
+{"_id":"MATH_5_001","text":"What exact numeric answer does MATH3424 give for a made-up version of the lecture topic?","metadata":{"feature":"1","type":"5"}}
+{"_id":"MATH_5_002","text":"MATH3424 ch2 wat does Chapter 2. Simple Linear Regression - Proofs mean? giv short ans pls","metadata":{"feature":"2","type":"5"}}
+{"_id":"MATH_5_003","text":"MATH3424 ch3 did lecture say exact opposite of Chapter 2. Simple Linear Regression is always true? rly?","metadata":{"feature":"3","type":"5"}}
+{"_id":"MATH_5_004","text":"Was sagt MATH3424 in Kapitel 4 über Chapter 3. Multiple Linear Regression - Proofs? Bitte erklären Sie kurz.","metadata":{"feature":"4","type":"5"}}
+{"_id":"MATH_5_005","text":"Was ist die genaue Vorhersage von MATH3424 in Kapitel 5 für Chapter 3. Multiple Linear Regression im Jahr 2030?","metadata":{"feature":"5","type":"5"}}
+{"_id":"MATH_5_006","text":"MATH3424 ch6 wat sagt der lecture über ---- by Bradley Efron? kurze antwort pls","metadata":{"feature":"6","type":"5"}}
+{"_id":"MATH_5_007","text":"MATH3424 ch7 kann der lecture exact vorhersage für Chapter 5. Qualitative Variables as Predictors in 2030 geben? rly?","metadata":{"feature":"7","type":"5"}}
+{"_id":"MATH_5_008","text":"If the lecture topic and another condition from the lecture both hold, what conclusion follows in MATH3424 ch1?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_009","text":"When 1.3 Steps in Regression Analysis is combined with a second constraint, what outcome should you expect per MATH3424 ch1?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_010","text":"How does 1.3 Steps in Regression Analysis interact with a second assumption discussed in MATH3424 ch1?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_011","text":"If the lecture's main condition and 1.4 Prerequisite I: Probability Distributions change together, what happens according to MATH3424 ch1?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_012","text":"What result follows when 1.6 Prerequisite III: Elements of Matrix Algebra is evaluated under two constraints at once in MATH3424 ch1?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_013","text":"If Chapter 2. Simple Linear Regression - Proofs and another condition from the lecture both hold, what conclusion follows in MATH3424 ch2?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_014","text":"When Chapter 2. Simple Linear Regression - Proofs is combined with a second constraint, what outcome should you expect per MATH3424 ch2?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_015","text":"How does Chapter 2. Simple Linear Regression - Proofs interact with a second assumption discussed in MATH3424 ch2?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_016","text":"If the lecture's main condition and Chapter 2. Simple Linear Regression - Proofs change together, what happens according to MATH3424 ch2?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_017","text":"What result follows when Chapter 2. Simple Linear Regression - Proofs is evaluated under two constraints at once in MATH3424 ch2?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_018","text":"If Chapter 2. Simple Linear Regression and another condition from the lecture both hold, what conclusion follows in MATH3424 ch3?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_019","text":"When 2.2 Simple Linear Regression Model and Parameter Estimation is combined with a second constraint, what outcome should you expect per MATH3424 ch3?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_020","text":"How does 2.4. Prediction interact with a second assumption discussed in MATH3424 ch3?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_021","text":"If the lecture's main condition and 2.7. An Example Using R change together, what happens according to MATH3424 ch3?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_022","text":"What result follows when 2.7 An Example Using R is evaluated under two constraints at once in MATH3424 ch3?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_023","text":"If Chapter 3. Multiple Linear Regression - Proofs and another condition from the lecture both hold, what conclusion follows in MATH3424 ch4?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_024","text":"When Chapter 3. Multiple Linear Regression - Proofs is combined with a second constraint, what outcome should you expect per MATH3424 ch4?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_025","text":"How does This implies that the j-th entry of ˆβ also follows interact with a second assumption discussed in MATH3424 ch4?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_026","text":"If the lecture's main condition and Chapter 3. Multiple Linear Regression - Proofs change together, what happens according to MATH3424 ch4?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_027","text":"What result follows when Chapter 3. Multiple Linear Regression - Proofs is evaluated under two constraints at once in MATH3424 ch4?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_028","text":"If Chapter 3. Multiple Linear Regression and another condition from the lecture both hold, what conclusion follows in MATH3424 ch5?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_029","text":"When 3.3 Centering and Scaling is combined with a second constraint, what outcome should you expect per MATH3424 ch5?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_030","text":"How does 3.5 Inference for Individual Regression Coefficients interact with a second assumption discussed in MATH3424 ch5?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_031","text":"If the lecture's main condition and 3.6 Test of Hypothesis in Linear Model and Prediction change together, what happens according to MATH3424 ch5?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_032","text":"What result follows when 3.7 An Example Using R is evaluated under two constraints at once in MATH3424 ch5?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_033","text":"If ---- by Bradley Efron and another condition from the lecture both hold, what conclusion follows in MATH3424 ch6?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_034","text":"When 4.2 Various Types of Residuals is combined with a second constraint, what outcome should you expect per MATH3424 ch6?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_035","text":"How does 4.4. Checking Linearity and Normality Assumptions interact with a second assumption discussed in MATH3424 ch6?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_036","text":"If the lecture's main condition and 4.5 Leverage, Influence and Outliers change together, what happens according to MATH3424 ch6?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_037","text":"What result follows when 4.7 What to Do with the Outliers? is evaluated under two constraints at once in MATH3424 ch6?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_038","text":"If Chapter 5. Qualitative Variables as Predictors and another condition from the lecture both hold, what conclusion follows in MATH3424 ch7?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_039","text":"When 5.2 Interaction Variables is combined with a second constraint, what outcome should you expect per MATH3424 ch7?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_040","text":"How does 5.3 Systems of Regression Equations interact with a second assumption discussed in MATH3424 ch7?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_041","text":"If the lecture's main condition and the lecture topic change together, what happens according to MATH3424 ch7?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_042","text":"What result follows when Testing Hypothesis is evaluated under two constraints at once in MATH3424 ch7?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_043","text":"If Chapter 6. Transformation of Variables and another condition from the lecture both hold, what conclusion follows in MATH3424 ch8?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_044","text":"When 6.2 Example: Bacteria Death Due to X-Ray Radiation is combined with a second constraint, what outcome should you expect per MATH3424 ch8?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_045","text":"How does 6.3 Transformations to Stabilize Variance interact with a second assumption discussed in MATH3424 ch8?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_046","text":"If the lecture's main condition and 6.5 Weighted Least Squares change together, what happens according to MATH3424 ch8?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_047","text":"What result follows when 6.6 Logarithmic Transformation and Power Transformation is evaluated under two constraints at once in MATH3424 ch8?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_048","text":"If Chapter 7. Correlated Errors and Collinear Data and another condition from the lecture both hold, what conclusion follows in MATH3424 ch9?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_049","text":"When 7.2 Correlated Errors: Durbin-Watson statistic and removal of autocorrelation is combined with a second constraint, what outcome should you expect per MATH3424 ch9?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_050","text":"How does Example interact with a second assumption discussed in MATH3424 ch9?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_051","text":"If the lecture's main condition and Use R for last example change together, what happens according to MATH3424 ch9?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_052","text":"What result follows when Use R Codes is evaluated under two constraints at once in MATH3424 ch9?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_053","text":"If Chapter 8. Variable/Model Selection and another condition from the lecture both hold, what conclusion follows in MATH3424 ch10?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_054","text":"When 8.1 Motivation and Consequences of Variable Selection is combined with a second constraint, what outcome should you expect per MATH3424 ch10?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_055","text":"How does 8.3 Criteria for Evaluating Equations interact with a second assumption discussed in MATH3424 ch10?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_056","text":"If the lecture's main condition and 8.5 Variable Selection Procedures change together, what happens according to MATH3424 ch10?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_057","text":"What result follows when 8.6 A study of Supervisor Performance is evaluated under two constraints at once in MATH3424 ch10?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_058","text":"If Chapter 9. Logistic Regression and another condition from the lecture both hold, what conclusion follows in MATH3424 ch11?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_059","text":"When 9.1 The Logit Model is combined with a second constraint, what outcome should you expect per MATH3424 ch11?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_060","text":"How does 9.4 Determination of Variables to Retain interact with a second assumption discussed in MATH3424 ch11?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_061","text":"If the lecture's main condition and 9.6 The Multinomial Logit Model change together, what happens according to MATH3424 ch11?","metadata":{"feature":"0","type":"5"}}
+{"_id":"MATH_5_062","text":"What result follows when 9.7 Working with R is evaluated under two constraints at once in MATH3424 ch11?","metadata":{"feature":"0","type":"5"}}

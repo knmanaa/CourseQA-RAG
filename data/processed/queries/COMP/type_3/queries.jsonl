@@ -1,0 +1,164 @@
+{"_id":"COMP_3_001","text":"What exact numeric answer does COMP2011 give for a made-up version of C++ Basics I?","metadata":{"feature":"1","type":"3"}}
+{"_id":"COMP_3_002","text":"Please state the precise number for Object-Oriented Programming in COMP2012, even if the lecture never gives one.","metadata":{"feature":"1","type":"3"}}
+{"_id":"COMP_3_003","text":"COMP2011 ch1 what does C++ Basics I mean? Please explain briefly.","metadata":{"feature":"2","type":"3"}}
+{"_id":"COMP_3_004","text":"COMP2012 ch1 says Object-Oriented Programming? The wording is messy, but give the short answer.","metadata":{"feature":"2","type":"3"}}
+{"_id":"COMP_3_005","text":"Does COMP2011 ch1 say that the opposite of C++ Basics I is always correct?","metadata":{"feature":"3","type":"3"}}
+{"_id":"COMP_3_006","text":"Did the lecture claim Object-Oriented Programming has no role at all in the result?","metadata":{"feature":"3","type":"3"}}
+{"_id":"COMP_3_007","text":"In COMP2011 ch1, how is C++ Basics I used?","metadata":{"feature":"4","type":"3"}}
+{"_id":"COMP_3_008","text":"Use the content of COMP2012 ch1 to explain Object-Oriented Programming.","metadata":{"feature":"4","type":"3"}}
+{"_id":"COMP_3_009","text":"If C++ Basics I and two extra constraints all have to hold, what exact answer would the lecture produce?","metadata":{"feature":"5","type":"3"}}
+{"_id":"COMP_3_010","text":"When Object-Oriented Programming is mixed with another restriction and a numeric condition, what result should we get?","metadata":{"feature":"5","type":"3"}}
+{"_id":"COMP_3_011","text":"Can you explain C++ Basics I from COMP2011 ch1 in plain English and code-like shorthand?","metadata":{"feature":"6","type":"3"}}
+{"_id":"COMP_3_012","text":"COMP2012 ch1, please give the Object-Oriented Programming idea with a short mix of English and symbols.","metadata":{"feature":"6","type":"3"}}
+{"_id":"COMP_3_013","text":"Would COMP2011 guarantee a future outcome for C++ Basics I if the conditions keep changing?","metadata":{"feature":"7","type":"3"}}
+{"_id":"COMP_3_014","text":"If the future flips, what would COMP2012 predict about Object-Oriented Programming?","metadata":{"feature":"7","type":"3"}}
+{"_id":"COMP_3_015","text":"Why does COMP2011 ch1 say C++ Basics I matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_016","text":"What causal link does the lecture draw between #include and User-defined Header Files and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_017","text":"Why does changing Motivation Example: Addition of 2 Numbers Again change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_018","text":"What mechanism explains Assignment Operator in COMP2011 ch1?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_019","text":"Why does Expression and Statement lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_020","text":"Why does COMP2011 ch2 say Program Flow Control I matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_021","text":"What causal link does the lecture draw between Conversion to Letter Grade and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_022","text":"Why does changing \"Dangling else\" Problem change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_023","text":"What mechanism explains Continuously Halving a float Number .. in COMP2011 ch2?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_024","text":"Why does Remarks on for Statement lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_025","text":"Why does COMP2011 ch3 say C++ Basics II matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_026","text":"What causal link does the lecture draw between Output Boolean Values and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_027","text":"Why does changing Manual Type Conversion (Casting) change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_028","text":"What mechanism explains Further Readings and Examples in COMP2011 ch3?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_029","text":"Why does Priority Rules for the Usual Arithmetic Conversions for lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_030","text":"Why does COMP2011 ch4 say Program Flow Control II matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_031","text":"What causal link does the lecture draw between Ignore Negative Inputs with continue and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_032","text":"Why does changing switch with Sharing Cases change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_033","text":"What mechanism explains Further Readings and Examples in COMP2011 ch4?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_034","text":"Why does More enum Example: Mixing Colors lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_035","text":"Why does COMP2011 ch5 say Examples on matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_036","text":"What causal link does the lecture draw between Typical Output and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_037","text":"Why does changing The Count Animals Problem change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_038","text":"What mechanism explains Program Requirements in COMP2011 ch5?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_039","text":"Why does A Row of RATs lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_040","text":"Why does COMP2011 ch6 say Function I matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_041","text":"What causal link does the lecture draw between Euclidean Distance and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_042","text":"Why does changing Parameter Passing Methods change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_043","text":"What mechanism explains Remarks .. in COMP2011 ch6?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_044","text":"Why does Rock/Paper/Scissors Game - other Functions .. lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_045","text":"Why does COMP2011 ch7 say Array - a Collection of matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_046","text":"What causal link does the lecture draw between Array Initialization and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_047","text":"Why does changing Constant Array change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_048","text":"What mechanism explains C++ N-dimensional Array in COMP2011 ch7?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_049","text":"Why does Palindrome lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_050","text":"Why does COMP2011 ch8 say Function II - Recursion matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_051","text":"What causal link does the lecture draw between Implement Recursion by Recursive Function and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_052","text":"Why does changing Non-Recursive Fibonacci Function change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_053","text":"What mechanism explains Disadvantages of Recursion in COMP2011 ch8?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_054","text":"Why does Factoring lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_055","text":"Why does COMP2011 ch9 say Scope matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_056","text":"What causal link does the lecture draw between File/Function/Block Scope and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_057","text":"Why does changing Block Scope change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_058","text":"What mechanism explains Identifiers of the Same Name .. in COMP2011 ch9?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_059","text":"Why does Quiz: Which j applies to S7? lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_060","text":"Why does COMP2011 ch10 say Structure - a Collection of matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_061","text":"What causal link does the lecture draw between Access struct Members by the . Operator and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_062","text":"Why does changing Student Record - student-record.h change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_063","text":"What mechanism explains Array of Structures in COMP2011 ch10?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_064","text":"Why does Return by Reference Again lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_065","text":"Why does COMP2011 ch11 say C++ Function III matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_066","text":"What causal link does the lecture draw between Function Declaration vs. Definition and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_067","text":"Why does changing Declare Functions Locally change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_068","text":"What mechanism explains Invalid Function Overloading in COMP2011 ch11?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_069","text":"Why does Increment with Default Argument lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_070","text":"Why does COMP2011 ch12 say Pointers & Dynamic Data matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_071","text":"What causal link does the lecture draw between Euclidean Distance Again - point-test.cpp and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_072","text":"Why does changing Common Operations on a Linked List change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_073","text":"What mechanism explains Dynamic 1D Array .. in COMP2011 ch12?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_074","text":"Why does Binary Tree - btree-print.cpp lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_075","text":"Why does COMP2011 ch13 say C++ Class matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_076","text":"What causal link does the lecture draw between OOP! and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_077","text":"Why does changing Information Hiding Rules change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_078","text":"What mechanism explains Inline Class Member Functions in COMP2011 ch13?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_079","text":"Why does lamp.cpp lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_080","text":"Why does COMP2011 ch14 say Data Structures - matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_081","text":"What causal link does the lecture draw between Stack: How it Works and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_082","text":"Why does changing Stack of int Data - Constructors, Assessors change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_083","text":"What mechanism explains Circular Queue of int Data - Illustration in COMP2011 ch14?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_084","text":"Why does Circular Queue of int Data - Mutators lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_085","text":"Why does COMP2011 ch15 say Some New Features in matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_086","text":"What causal link does the lecture draw between Initializer Example 1 and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_087","text":"Why does changing for-Statements change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_088","text":"What mechanism explains Lambdas with Captures in COMP2011 ch15?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_089","text":"Why does Mutable Lambda with Return lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_090","text":"Why does COMP2011 ch16 say File I/O matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_091","text":"What causal link does the lecture draw between C++ Stream and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_092","text":"Why does changing Interactive Stream: iostream change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_093","text":"What mechanism explains File Copy in COMP2011 ch16?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_094","text":"Why does Read an Array of Integers .. lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_095","text":"Why does COMP2011 ch17 say Separate Compilation matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_096","text":"What causal link does the lecture draw between Solution #1: Separate Compilation - main( ) and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_097","text":"Why does changing Definition vs. Declaration change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_098","text":"What mechanism explains Header Files in COMP2011 ch17?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_099","text":"Why does Header Files of the Standard C++ Libraries lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_100","text":"Why does COMP2011 ch18 say C++ String Class matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_101","text":"What causal link does the lecture draw between Constructors and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_102","text":"Why does changing Accessing Individual Characters change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_103","text":"What mechanism explains Substrings in COMP2011 ch18?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_104","text":"Why does Find and Replace .. lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_105","text":"Why does COMP2012 ch1 say Object-Oriented Programming matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_106","text":"What causal link does the lecture draw between Range-for Example and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_107","text":"Why does changing Class Data Members change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_108","text":"What mechanism explains const-ness in COMP2012 ch1?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_109","text":"Why does Summary lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_110","text":"Why does COMP2012 ch2 say Object-Oriented Programming matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_111","text":"What causal link does the lecture draw between Return-by-Value =>Copy Constructor and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_112","text":"Why does changing Member Initializer List (MIL) change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_113","text":"What mechanism explains Bug: Default Memberwise Assignment in COMP2012 ch2?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_114","text":"Why does Summary lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_115","text":"Why does COMP2012 ch3 say Object-Oriented Programming matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_116","text":"What causal link does the lecture draw between Order of Cons/Destruction: Student w/ an Address and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_117","text":"Why does changing Virtual Function: UPerson Class change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_118","text":"What mechanism explains ABC Example: Assets in COMP2012 ch3?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_119","text":"Why does Inheritance: Summary .. lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_120","text":"Why does COMP2012 ch4 say Object-Oriented Programming matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_121","text":"What causal link does the lecture draw between Class Template for Nodes of a List and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_122","text":"Why does changing Global Non-member Operator<< Function ... change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_123","text":"What mechanism explains Friend Functions or Classes in COMP2012 ch4?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_124","text":"Why does larger Template w/ Multiple Arguments II .. lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_125","text":"Why does COMP2012 ch5 say Object-Oriented Programming matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_126","text":"What causal link does the lecture draw between Lambdas with Captures and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_127","text":"Why does changing Capture by Value or Reference change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_128","text":"What mechanism explains Function Pointer in COMP2012 ch5?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_129","text":"Why does Further Reading: Nested Lambda lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_130","text":"Why does COMP2012 ch6 say Object-Oriented Programming matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_131","text":"What causal link does the lecture draw between Binary Trees and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_132","text":"Why does changing BST Example and Counter-Example change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_133","text":"What mechanism explains BST Code: Find the Maximum Stored Value in COMP2012 ch6?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_134","text":"Why does BST Testing Code .. lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_135","text":"Why does COMP2012 ch7 say Object-Oriented Programming matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_136","text":"What causal link does the lecture draw between Hash Function .. and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_137","text":"Why does changing Separate Chaining Operations change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_138","text":"What mechanism explains Quadratic Probing in COMP2012 ch7?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_139","text":"Why does Re-hashing lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_140","text":"Why does COMP2012 ch8 say Object-Oriented Programming matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_141","text":"What causal link does the lecture draw between Class Word: word.h .. and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_142","text":"Why does changing Temporary Word Objects and rvalue Reference: Quiz change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_143","text":"What mechanism explains std::move( ) Example: word-pair.h in COMP2012 ch8?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_144","text":"Why does std::move( ) Example: word-pair2.cpp Output lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_145","text":"Why does COMP2012 ch9 say Object-Oriented Programming matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_146","text":"What causal link does the lecture draw between COMP 2011 Example: bulb.cpp and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_147","text":"Why does changing Linking Object Files change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_148","text":"What mechanism explains A Smarter Makefile in COMP2012 ch9?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_149","text":"Why does #ifndef, #define, #endif lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_150","text":"Why does COMP2012 ch10 say Object-Oriented Programming matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_151","text":"What causal link does the lecture draw between Solution: namespace and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_152","text":"Why does changing using Declaration change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_153","text":"What mechanism explains How Should We Declare Namespaces? in COMP2012 ch10?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_154","text":"Why does Namespace Is Expansible lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_155","text":"Why does COMP2012 ch11 say Object-Oriented Programming matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_156","text":"What causal link does the lecture draw between Students Study for an Exam By Memorizing and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_157","text":"Why does changing Students Cheat by Collective Memory change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_158","text":"What mechanism explains Class Clock With Static Methods - clock-test.cpp in COMP2012 ch11?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_159","text":"Why does Static Data Members and Member Function / Method lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_160","text":"Why does COMP2012 ch12 say Object-Oriented Programming matters?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_161","text":"What causal link does the lecture draw between Some Properties of STL Sequence Containers and the final outcome?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_162","text":"Why does changing Queue of int Data change the behavior described in the slide?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_163","text":"What mechanism explains STL find( ) the 2nd Occurrence of a in COMP2012 ch12?","metadata":{"feature":"0","type":"3"}}
+{"_id":"COMP_3_164","text":"Why does Other Algorithms in the STL lead to the effect shown in the example?","metadata":{"feature":"0","type":"3"}}

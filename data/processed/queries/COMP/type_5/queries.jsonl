@@ -1,0 +1,164 @@
+{"_id":"COMP_5_001","text":"What exact numeric answer does COMP2011 give for a made-up version of C++ Basics I?","metadata":{"feature":"1","type":"5"}}
+{"_id":"COMP_5_002","text":"Please state the precise number for Object-Oriented Programming in COMP2012, even if the lecture never gives one.","metadata":{"feature":"1","type":"5"}}
+{"_id":"COMP_5_003","text":"COMP2011 ch1 what does C++ Basics I mean? Please explain briefly.","metadata":{"feature":"2","type":"5"}}
+{"_id":"COMP_5_004","text":"COMP2012 ch1 says Object-Oriented Programming? The wording is messy, but give the short answer.","metadata":{"feature":"2","type":"5"}}
+{"_id":"COMP_5_005","text":"Does COMP2011 ch1 say that the opposite of C++ Basics I is always correct?","metadata":{"feature":"3","type":"5"}}
+{"_id":"COMP_5_006","text":"Did the lecture claim Object-Oriented Programming has no role at all in the result?","metadata":{"feature":"3","type":"5"}}
+{"_id":"COMP_5_007","text":"In COMP2011 ch1, how is C++ Basics I used?","metadata":{"feature":"4","type":"5"}}
+{"_id":"COMP_5_008","text":"Use the content of COMP2012 ch1 to explain Object-Oriented Programming.","metadata":{"feature":"4","type":"5"}}
+{"_id":"COMP_5_009","text":"If C++ Basics I and two extra constraints all have to hold, what exact answer would the lecture produce?","metadata":{"feature":"5","type":"5"}}
+{"_id":"COMP_5_010","text":"When Object-Oriented Programming is mixed with another restriction and a numeric condition, what result should we get?","metadata":{"feature":"5","type":"5"}}
+{"_id":"COMP_5_011","text":"Can you explain C++ Basics I from COMP2011 ch1 in plain English and code-like shorthand?","metadata":{"feature":"6","type":"5"}}
+{"_id":"COMP_5_012","text":"COMP2012 ch1, please give the Object-Oriented Programming idea with a short mix of English and symbols.","metadata":{"feature":"6","type":"5"}}
+{"_id":"COMP_5_013","text":"Would COMP2011 guarantee a future outcome for C++ Basics I if the conditions keep changing?","metadata":{"feature":"7","type":"5"}}
+{"_id":"COMP_5_014","text":"If the future flips, what would COMP2012 predict about Object-Oriented Programming?","metadata":{"feature":"7","type":"5"}}
+{"_id":"COMP_5_015","text":"If C++ Basics I and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_016","text":"When #include and User-defined Header Files is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_017","text":"How does Motivation Example: Addition of 2 Numbers Again interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_018","text":"If the lecture's condition and Assignment Operator change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_019","text":"What result follows when Expression and Statement is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_020","text":"If Program Flow Control I and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_021","text":"When Conversion to Letter Grade is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_022","text":"How does \"Dangling else\" Problem interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_023","text":"If the lecture's condition and Continuously Halving a float Number .. change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_024","text":"What result follows when Remarks on for Statement is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_025","text":"If C++ Basics II and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_026","text":"When Output Boolean Values is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_027","text":"How does Manual Type Conversion (Casting) interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_028","text":"If the lecture's condition and Further Readings and Examples change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_029","text":"What result follows when Priority Rules for the Usual Arithmetic Conversions for is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_030","text":"If Program Flow Control II and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_031","text":"When Ignore Negative Inputs with continue is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_032","text":"How does switch with Sharing Cases interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_033","text":"If the lecture's condition and Further Readings and Examples change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_034","text":"What result follows when More enum Example: Mixing Colors is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_035","text":"If Examples on and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_036","text":"When Typical Output is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_037","text":"How does The Count Animals Problem interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_038","text":"If the lecture's condition and Program Requirements change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_039","text":"What result follows when A Row of RATs is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_040","text":"If Function I and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_041","text":"When Euclidean Distance is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_042","text":"How does Parameter Passing Methods interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_043","text":"If the lecture's condition and Remarks .. change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_044","text":"What result follows when Rock/Paper/Scissors Game - other Functions .. is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_045","text":"If Array - a Collection of and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_046","text":"When Array Initialization is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_047","text":"How does Constant Array interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_048","text":"If the lecture's condition and C++ N-dimensional Array change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_049","text":"What result follows when Palindrome is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_050","text":"If Function II - Recursion and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_051","text":"When Implement Recursion by Recursive Function is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_052","text":"How does Non-Recursive Fibonacci Function interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_053","text":"If the lecture's condition and Disadvantages of Recursion change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_054","text":"What result follows when Factoring is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_055","text":"If Scope and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_056","text":"When File/Function/Block Scope is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_057","text":"How does Block Scope interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_058","text":"If the lecture's condition and Identifiers of the Same Name .. change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_059","text":"What result follows when Quiz: Which j applies to S7? is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_060","text":"If Structure - a Collection of and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_061","text":"When Access struct Members by the . Operator is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_062","text":"How does Student Record - student-record.h interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_063","text":"If the lecture's condition and Array of Structures change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_064","text":"What result follows when Return by Reference Again is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_065","text":"If C++ Function III and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_066","text":"When Function Declaration vs. Definition is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_067","text":"How does Declare Functions Locally interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_068","text":"If the lecture's condition and Invalid Function Overloading change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_069","text":"What result follows when Increment with Default Argument is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_070","text":"If Pointers & Dynamic Data and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_071","text":"When Euclidean Distance Again - point-test.cpp is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_072","text":"How does Common Operations on a Linked List interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_073","text":"If the lecture's condition and Dynamic 1D Array .. change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_074","text":"What result follows when Binary Tree - btree-print.cpp is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_075","text":"If C++ Class and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_076","text":"When OOP! is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_077","text":"How does Information Hiding Rules interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_078","text":"If the lecture's condition and Inline Class Member Functions change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_079","text":"What result follows when lamp.cpp is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_080","text":"If Data Structures - and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_081","text":"When Stack: How it Works is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_082","text":"How does Stack of int Data - Constructors, Assessors interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_083","text":"If the lecture's condition and Circular Queue of int Data - Illustration change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_084","text":"What result follows when Circular Queue of int Data - Mutators is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_085","text":"If Some New Features in and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_086","text":"When Initializer Example 1 is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_087","text":"How does for-Statements interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_088","text":"If the lecture's condition and Lambdas with Captures change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_089","text":"What result follows when Mutable Lambda with Return is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_090","text":"If File I/O and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_091","text":"When C++ Stream is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_092","text":"How does Interactive Stream: iostream interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_093","text":"If the lecture's condition and File Copy change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_094","text":"What result follows when Read an Array of Integers .. is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_095","text":"If Separate Compilation and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_096","text":"When Solution #1: Separate Compilation - main( ) is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_097","text":"How does Definition vs. Declaration interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_098","text":"If the lecture's condition and Header Files change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_099","text":"What result follows when Header Files of the Standard C++ Libraries is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_100","text":"If C++ String Class and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_101","text":"When Constructors is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_102","text":"How does Accessing Individual Characters interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_103","text":"If the lecture's condition and Substrings change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_104","text":"What result follows when Find and Replace .. is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_105","text":"If Object-Oriented Programming and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_106","text":"When Range-for Example is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_107","text":"How does Class Data Members interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_108","text":"If the lecture's condition and const-ness change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_109","text":"What result follows when Summary is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_110","text":"If Object-Oriented Programming and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_111","text":"When Return-by-Value =>Copy Constructor is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_112","text":"How does Member Initializer List (MIL) interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_113","text":"If the lecture's condition and Bug: Default Memberwise Assignment change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_114","text":"What result follows when Summary is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_115","text":"If Object-Oriented Programming and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_116","text":"When Order of Cons/Destruction: Student w/ an Address is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_117","text":"How does Virtual Function: UPerson Class interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_118","text":"If the lecture's condition and ABC Example: Assets change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_119","text":"What result follows when Inheritance: Summary .. is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_120","text":"If Object-Oriented Programming and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_121","text":"When Class Template for Nodes of a List is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_122","text":"How does Global Non-member Operator<< Function ... interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_123","text":"If the lecture's condition and Friend Functions or Classes change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_124","text":"What result follows when larger Template w/ Multiple Arguments II .. is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_125","text":"If Object-Oriented Programming and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_126","text":"When Lambdas with Captures is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_127","text":"How does Capture by Value or Reference interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_128","text":"If the lecture's condition and Function Pointer change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_129","text":"What result follows when Further Reading: Nested Lambda is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_130","text":"If Object-Oriented Programming and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_131","text":"When Binary Trees is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_132","text":"How does BST Example and Counter-Example interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_133","text":"If the lecture's condition and BST Code: Find the Maximum Stored Value change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_134","text":"What result follows when BST Testing Code .. is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_135","text":"If Object-Oriented Programming and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_136","text":"When Hash Function .. is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_137","text":"How does Separate Chaining Operations interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_138","text":"If the lecture's condition and Quadratic Probing change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_139","text":"What result follows when Re-hashing is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_140","text":"If Object-Oriented Programming and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_141","text":"When Class Word: word.h .. is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_142","text":"How does Temporary Word Objects and rvalue Reference: Quiz interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_143","text":"If the lecture's condition and std::move( ) Example: word-pair.h change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_144","text":"What result follows when std::move( ) Example: word-pair2.cpp Output is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_145","text":"If Object-Oriented Programming and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_146","text":"When COMP 2011 Example: bulb.cpp is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_147","text":"How does Linking Object Files interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_148","text":"If the lecture's condition and A Smarter Makefile change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_149","text":"What result follows when #ifndef, #define, #endif is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_150","text":"If Object-Oriented Programming and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_151","text":"When Solution: namespace is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_152","text":"How does using Declaration interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_153","text":"If the lecture's condition and How Should We Declare Namespaces? change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_154","text":"What result follows when Namespace Is Expansible is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_155","text":"If Object-Oriented Programming and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_156","text":"When Students Study for an Exam By Memorizing is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_157","text":"How does Students Cheat by Collective Memory interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_158","text":"If the lecture's condition and Class Clock With Static Methods - clock-test.cpp change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_159","text":"What result follows when Static Data Members and Member Function / Method is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_160","text":"If Object-Oriented Programming and another condition both hold, what conclusion follows?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_161","text":"When Some Properties of STL Sequence Containers is combined with a second constraint, what outcome should you expect?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_162","text":"How does Queue of int Data interact with a second lecture assumption?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_163","text":"If the lecture's condition and STL find( ) the 2nd Occurrence of a change together, what happens?","metadata":{"feature":"0","type":"5"}}
+{"_id":"COMP_5_164","text":"What result follows when Other Algorithms in the STL is evaluated under two constraints at once?","metadata":{"feature":"0","type":"5"}}

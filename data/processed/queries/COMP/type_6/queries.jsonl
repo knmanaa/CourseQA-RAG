@@ -1,0 +1,164 @@
+{"_id":"COMP_6_001","text":"What exact numeric answer does COMP2011 give for a made-up version of C++ Basics I?","metadata":{"feature":"1","type":"6"}}
+{"_id":"COMP_6_002","text":"Please state the precise number for Object-Oriented Programming in COMP2012, even if the lecture never gives one.","metadata":{"feature":"1","type":"6"}}
+{"_id":"COMP_6_003","text":"COMP2011 ch1 what does C++ Basics I mean? Please explain briefly.","metadata":{"feature":"2","type":"6"}}
+{"_id":"COMP_6_004","text":"COMP2012 ch1 says Object-Oriented Programming? The wording is messy, but give the short answer.","metadata":{"feature":"2","type":"6"}}
+{"_id":"COMP_6_005","text":"Does COMP2011 ch1 say that the opposite of C++ Basics I is always correct?","metadata":{"feature":"3","type":"6"}}
+{"_id":"COMP_6_006","text":"Did the lecture claim Object-Oriented Programming has no role at all in the result?","metadata":{"feature":"3","type":"6"}}
+{"_id":"COMP_6_007","text":"In COMP2011 ch1, how is C++ Basics I used?","metadata":{"feature":"4","type":"6"}}
+{"_id":"COMP_6_008","text":"Use the content of COMP2012 ch1 to explain Object-Oriented Programming.","metadata":{"feature":"4","type":"6"}}
+{"_id":"COMP_6_009","text":"If C++ Basics I and two extra constraints all have to hold, what exact answer would the lecture produce?","metadata":{"feature":"5","type":"6"}}
+{"_id":"COMP_6_010","text":"When Object-Oriented Programming is mixed with another restriction and a numeric condition, what result should we get?","metadata":{"feature":"5","type":"6"}}
+{"_id":"COMP_6_011","text":"Can you explain C++ Basics I from COMP2011 ch1 in plain English and code-like shorthand?","metadata":{"feature":"6","type":"6"}}
+{"_id":"COMP_6_012","text":"COMP2012 ch1, please give the Object-Oriented Programming idea with a short mix of English and symbols.","metadata":{"feature":"6","type":"6"}}
+{"_id":"COMP_6_013","text":"Would COMP2011 guarantee a future outcome for C++ Basics I if the conditions keep changing?","metadata":{"feature":"7","type":"6"}}
+{"_id":"COMP_6_014","text":"If the future flips, what would COMP2012 predict about Object-Oriented Programming?","metadata":{"feature":"7","type":"6"}}
+{"_id":"COMP_6_015","text":"If C++ Basics I were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_016","text":"Under a hypothetical change to #include and User-defined Header Files, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_017","text":"If the chapter's condition around Motivation Example: Addition of 2 Numbers Again no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_018","text":"What would the lecture predict if Assignment Operator were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_019","text":"If Expression and Statement changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_020","text":"If Program Flow Control I were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_021","text":"Under a hypothetical change to Conversion to Letter Grade, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_022","text":"If the chapter's condition around \"Dangling else\" Problem no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_023","text":"What would the lecture predict if Continuously Halving a float Number .. were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_024","text":"If Remarks on for Statement changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_025","text":"If C++ Basics II were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_026","text":"Under a hypothetical change to Output Boolean Values, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_027","text":"If the chapter's condition around Manual Type Conversion (Casting) no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_028","text":"What would the lecture predict if Further Readings and Examples were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_029","text":"If Priority Rules for the Usual Arithmetic Conversions for changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_030","text":"If Program Flow Control II were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_031","text":"Under a hypothetical change to Ignore Negative Inputs with continue, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_032","text":"If the chapter's condition around switch with Sharing Cases no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_033","text":"What would the lecture predict if Further Readings and Examples were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_034","text":"If More enum Example: Mixing Colors changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_035","text":"If Examples on were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_036","text":"Under a hypothetical change to Typical Output, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_037","text":"If the chapter's condition around The Count Animals Problem no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_038","text":"What would the lecture predict if Program Requirements were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_039","text":"If A Row of RATs changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_040","text":"If Function I were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_041","text":"Under a hypothetical change to Euclidean Distance, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_042","text":"If the chapter's condition around Parameter Passing Methods no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_043","text":"What would the lecture predict if Remarks .. were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_044","text":"If Rock/Paper/Scissors Game - other Functions .. changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_045","text":"If Array - a Collection of were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_046","text":"Under a hypothetical change to Array Initialization, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_047","text":"If the chapter's condition around Constant Array no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_048","text":"What would the lecture predict if C++ N-dimensional Array were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_049","text":"If Palindrome changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_050","text":"If Function II - Recursion were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_051","text":"Under a hypothetical change to Implement Recursion by Recursive Function, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_052","text":"If the chapter's condition around Non-Recursive Fibonacci Function no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_053","text":"What would the lecture predict if Disadvantages of Recursion were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_054","text":"If Factoring changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_055","text":"If Scope were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_056","text":"Under a hypothetical change to File/Function/Block Scope, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_057","text":"If the chapter's condition around Block Scope no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_058","text":"What would the lecture predict if Identifiers of the Same Name .. were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_059","text":"If Quiz: Which j applies to S7? changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_060","text":"If Structure - a Collection of were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_061","text":"Under a hypothetical change to Access struct Members by the . Operator, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_062","text":"If the chapter's condition around Student Record - student-record.h no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_063","text":"What would the lecture predict if Array of Structures were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_064","text":"If Return by Reference Again changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_065","text":"If C++ Function III were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_066","text":"Under a hypothetical change to Function Declaration vs. Definition, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_067","text":"If the chapter's condition around Declare Functions Locally no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_068","text":"What would the lecture predict if Invalid Function Overloading were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_069","text":"If Increment with Default Argument changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_070","text":"If Pointers & Dynamic Data were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_071","text":"Under a hypothetical change to Euclidean Distance Again - point-test.cpp, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_072","text":"If the chapter's condition around Common Operations on a Linked List no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_073","text":"What would the lecture predict if Dynamic 1D Array .. were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_074","text":"If Binary Tree - btree-print.cpp changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_075","text":"If C++ Class were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_076","text":"Under a hypothetical change to OOP!, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_077","text":"If the chapter's condition around Information Hiding Rules no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_078","text":"What would the lecture predict if Inline Class Member Functions were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_079","text":"If lamp.cpp changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_080","text":"If Data Structures - were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_081","text":"Under a hypothetical change to Stack: How it Works, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_082","text":"If the chapter's condition around Stack of int Data - Constructors, Assessors no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_083","text":"What would the lecture predict if Circular Queue of int Data - Illustration were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_084","text":"If Circular Queue of int Data - Mutators changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_085","text":"If Some New Features in were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_086","text":"Under a hypothetical change to Initializer Example 1, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_087","text":"If the chapter's condition around for-Statements no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_088","text":"What would the lecture predict if Lambdas with Captures were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_089","text":"If Mutable Lambda with Return changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_090","text":"If File I/O were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_091","text":"Under a hypothetical change to C++ Stream, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_092","text":"If the chapter's condition around Interactive Stream: iostream no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_093","text":"What would the lecture predict if File Copy were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_094","text":"If Read an Array of Integers .. changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_095","text":"If Separate Compilation were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_096","text":"Under a hypothetical change to Solution #1: Separate Compilation - main( ), how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_097","text":"If the chapter's condition around Definition vs. Declaration no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_098","text":"What would the lecture predict if Header Files were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_099","text":"If Header Files of the Standard C++ Libraries changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_100","text":"If C++ String Class were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_101","text":"Under a hypothetical change to Constructors, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_102","text":"If the chapter's condition around Accessing Individual Characters no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_103","text":"What would the lecture predict if Substrings were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_104","text":"If Find and Replace .. changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_105","text":"If Object-Oriented Programming were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_106","text":"Under a hypothetical change to Range-for Example, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_107","text":"If the chapter's condition around Class Data Members no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_108","text":"What would the lecture predict if const-ness were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_109","text":"If Summary changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_110","text":"If Object-Oriented Programming were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_111","text":"Under a hypothetical change to Return-by-Value =>Copy Constructor, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_112","text":"If the chapter's condition around Member Initializer List (MIL) no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_113","text":"What would the lecture predict if Bug: Default Memberwise Assignment were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_114","text":"If Summary changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_115","text":"If Object-Oriented Programming were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_116","text":"Under a hypothetical change to Order of Cons/Destruction: Student w/ an Address, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_117","text":"If the chapter's condition around Virtual Function: UPerson Class no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_118","text":"What would the lecture predict if ABC Example: Assets were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_119","text":"If Inheritance: Summary .. changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_120","text":"If Object-Oriented Programming were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_121","text":"Under a hypothetical change to Class Template for Nodes of a List, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_122","text":"If the chapter's condition around Global Non-member Operator<< Function ... no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_123","text":"What would the lecture predict if Friend Functions or Classes were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_124","text":"If larger Template w/ Multiple Arguments II .. changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_125","text":"If Object-Oriented Programming were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_126","text":"Under a hypothetical change to Lambdas with Captures, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_127","text":"If the chapter's condition around Capture by Value or Reference no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_128","text":"What would the lecture predict if Function Pointer were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_129","text":"If Further Reading: Nested Lambda changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_130","text":"If Object-Oriented Programming were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_131","text":"Under a hypothetical change to Binary Trees, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_132","text":"If the chapter's condition around BST Example and Counter-Example no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_133","text":"What would the lecture predict if BST Code: Find the Maximum Stored Value were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_134","text":"If BST Testing Code .. changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_135","text":"If Object-Oriented Programming were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_136","text":"Under a hypothetical change to Hash Function .., how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_137","text":"If the chapter's condition around Separate Chaining Operations no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_138","text":"What would the lecture predict if Quadratic Probing were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_139","text":"If Re-hashing changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_140","text":"If Object-Oriented Programming were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_141","text":"Under a hypothetical change to Class Word: word.h .., how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_142","text":"If the chapter's condition around Temporary Word Objects and rvalue Reference: Quiz no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_143","text":"What would the lecture predict if std::move( ) Example: word-pair.h were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_144","text":"If std::move( ) Example: word-pair2.cpp Output changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_145","text":"If Object-Oriented Programming were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_146","text":"Under a hypothetical change to COMP 2011 Example: bulb.cpp, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_147","text":"If the chapter's condition around Linking Object Files no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_148","text":"What would the lecture predict if A Smarter Makefile were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_149","text":"If #ifndef, #define, #endif changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_150","text":"If Object-Oriented Programming were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_151","text":"Under a hypothetical change to Solution: namespace, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_152","text":"If the chapter's condition around using Declaration no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_153","text":"What would the lecture predict if How Should We Declare Namespaces? were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_154","text":"If Namespace Is Expansible changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_155","text":"If Object-Oriented Programming were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_156","text":"Under a hypothetical change to Students Study for an Exam By Memorizing, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_157","text":"If the chapter's condition around Students Cheat by Collective Memory no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_158","text":"What would the lecture predict if Class Clock With Static Methods - clock-test.cpp were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_159","text":"If Static Data Members and Member Function / Method changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_160","text":"If Object-Oriented Programming were reversed, what counterfactual result would the lecture suggest?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_161","text":"Under a hypothetical change to Some Properties of STL Sequence Containers, how would the outcome move?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_162","text":"If the chapter's condition around Queue of int Data no longer held, what would happen?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_163","text":"What would the lecture predict if STL find( ) the 2nd Occurrence of a were altered?","metadata":{"feature":"0","type":"6"}}
+{"_id":"COMP_6_164","text":"If Other Algorithms in the STL changed in the opposite direction, what would the slides imply?","metadata":{"feature":"0","type":"6"}}

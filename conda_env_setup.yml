@@ -1,4 +1,4 @@
-name: CourseQARAG
+name: testing
 channels:
   - defaults
   - conda-forge

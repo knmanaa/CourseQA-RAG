@@ -1,0 +1,164 @@
+{"_id":"COMP_2_001","text":"What exact numeric answer does COMP2011 give for a made-up version of C++ Basics I?","metadata":{"feature":"1","type":"2"}}
+{"_id":"COMP_2_002","text":"Please state the precise number for Object-Oriented Programming in COMP2012, even if the lecture never gives one.","metadata":{"feature":"1","type":"2"}}
+{"_id":"COMP_2_003","text":"COMP2011 ch1 what does C++ Basics I mean? Please explain briefly.","metadata":{"feature":"2","type":"2"}}
+{"_id":"COMP_2_004","text":"COMP2012 ch1 says Object-Oriented Programming? The wording is messy, but give the short answer.","metadata":{"feature":"2","type":"2"}}
+{"_id":"COMP_2_005","text":"Does COMP2011 ch1 say that the opposite of C++ Basics I is always correct?","metadata":{"feature":"3","type":"2"}}
+{"_id":"COMP_2_006","text":"Did the lecture claim Object-Oriented Programming has no role at all in the result?","metadata":{"feature":"3","type":"2"}}
+{"_id":"COMP_2_007","text":"In COMP2011 ch1, how is C++ Basics I used?","metadata":{"feature":"4","type":"2"}}
+{"_id":"COMP_2_008","text":"Use the content of COMP2012 ch1 to explain Object-Oriented Programming.","metadata":{"feature":"4","type":"2"}}
+{"_id":"COMP_2_009","text":"If C++ Basics I and two extra constraints all have to hold, what exact answer would the lecture produce?","metadata":{"feature":"5","type":"2"}}
+{"_id":"COMP_2_010","text":"When Object-Oriented Programming is mixed with another restriction and a numeric condition, what result should we get?","metadata":{"feature":"5","type":"2"}}
+{"_id":"COMP_2_011","text":"Can you explain C++ Basics I from COMP2011 ch1 in plain English and code-like shorthand?","metadata":{"feature":"6","type":"2"}}
+{"_id":"COMP_2_012","text":"COMP2012 ch1, please give the Object-Oriented Programming idea with a short mix of English and symbols.","metadata":{"feature":"6","type":"2"}}
+{"_id":"COMP_2_013","text":"Would COMP2011 guarantee a future outcome for C++ Basics I if the conditions keep changing?","metadata":{"feature":"7","type":"2"}}
+{"_id":"COMP_2_014","text":"If the future flips, what would COMP2012 predict about Object-Oriented Programming?","metadata":{"feature":"7","type":"2"}}
+{"_id":"COMP_2_015","text":"Does COMP2011 ch1 claim that C++ Basics I has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_016","text":"Is it true that #include and User-defined Header Files works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_017","text":"Did COMP2011 ch1 say the opposite of Motivation Example: Addition of 2 Numbers Again is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_018","text":"Does the lecture present Assignment Operator as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_019","text":"Is Expression and Statement described as optional rather than necessary in COMP2011 ch1?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_020","text":"Does COMP2011 ch2 claim that Program Flow Control I has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_021","text":"Is it true that Conversion to Letter Grade works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_022","text":"Did COMP2011 ch2 say the opposite of \"Dangling else\" Problem is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_023","text":"Does the lecture present Continuously Halving a float Number .. as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_024","text":"Is Remarks on for Statement described as optional rather than necessary in COMP2011 ch2?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_025","text":"Does COMP2011 ch3 claim that C++ Basics II has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_026","text":"Is it true that Output Boolean Values works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_027","text":"Did COMP2011 ch3 say the opposite of Manual Type Conversion (Casting) is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_028","text":"Does the lecture present Further Readings and Examples as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_029","text":"Is Priority Rules for the Usual Arithmetic Conversions for described as optional rather than necessary in COMP2011 ch3?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_030","text":"Does COMP2011 ch4 claim that Program Flow Control II has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_031","text":"Is it true that Ignore Negative Inputs with continue works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_032","text":"Did COMP2011 ch4 say the opposite of switch with Sharing Cases is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_033","text":"Does the lecture present Further Readings and Examples as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_034","text":"Is More enum Example: Mixing Colors described as optional rather than necessary in COMP2011 ch4?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_035","text":"Does COMP2011 ch5 claim that Examples on has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_036","text":"Is it true that Typical Output works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_037","text":"Did COMP2011 ch5 say the opposite of The Count Animals Problem is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_038","text":"Does the lecture present Program Requirements as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_039","text":"Is A Row of RATs described as optional rather than necessary in COMP2011 ch5?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_040","text":"Does COMP2011 ch6 claim that Function I has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_041","text":"Is it true that Euclidean Distance works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_042","text":"Did COMP2011 ch6 say the opposite of Parameter Passing Methods is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_043","text":"Does the lecture present Remarks .. as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_044","text":"Is Rock/Paper/Scissors Game - other Functions .. described as optional rather than necessary in COMP2011 ch6?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_045","text":"Does COMP2011 ch7 claim that Array - a Collection of has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_046","text":"Is it true that Array Initialization works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_047","text":"Did COMP2011 ch7 say the opposite of Constant Array is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_048","text":"Does the lecture present C++ N-dimensional Array as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_049","text":"Is Palindrome described as optional rather than necessary in COMP2011 ch7?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_050","text":"Does COMP2011 ch8 claim that Function II - Recursion has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_051","text":"Is it true that Implement Recursion by Recursive Function works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_052","text":"Did COMP2011 ch8 say the opposite of Non-Recursive Fibonacci Function is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_053","text":"Does the lecture present Disadvantages of Recursion as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_054","text":"Is Factoring described as optional rather than necessary in COMP2011 ch8?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_055","text":"Does COMP2011 ch9 claim that Scope has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_056","text":"Is it true that File/Function/Block Scope works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_057","text":"Did COMP2011 ch9 say the opposite of Block Scope is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_058","text":"Does the lecture present Identifiers of the Same Name .. as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_059","text":"Is Quiz: Which j applies to S7? described as optional rather than necessary in COMP2011 ch9?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_060","text":"Does COMP2011 ch10 claim that Structure - a Collection of has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_061","text":"Is it true that Access struct Members by the . Operator works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_062","text":"Did COMP2011 ch10 say the opposite of Student Record - student-record.h is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_063","text":"Does the lecture present Array of Structures as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_064","text":"Is Return by Reference Again described as optional rather than necessary in COMP2011 ch10?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_065","text":"Does COMP2011 ch11 claim that C++ Function III has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_066","text":"Is it true that Function Declaration vs. Definition works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_067","text":"Did COMP2011 ch11 say the opposite of Declare Functions Locally is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_068","text":"Does the lecture present Invalid Function Overloading as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_069","text":"Is Increment with Default Argument described as optional rather than necessary in COMP2011 ch11?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_070","text":"Does COMP2011 ch12 claim that Pointers & Dynamic Data has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_071","text":"Is it true that Euclidean Distance Again - point-test.cpp works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_072","text":"Did COMP2011 ch12 say the opposite of Common Operations on a Linked List is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_073","text":"Does the lecture present Dynamic 1D Array .. as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_074","text":"Is Binary Tree - btree-print.cpp described as optional rather than necessary in COMP2011 ch12?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_075","text":"Does COMP2011 ch13 claim that C++ Class has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_076","text":"Is it true that OOP! works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_077","text":"Did COMP2011 ch13 say the opposite of Information Hiding Rules is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_078","text":"Does the lecture present Inline Class Member Functions as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_079","text":"Is lamp.cpp described as optional rather than necessary in COMP2011 ch13?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_080","text":"Does COMP2011 ch14 claim that Data Structures - has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_081","text":"Is it true that Stack: How it Works works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_082","text":"Did COMP2011 ch14 say the opposite of Stack of int Data - Constructors, Assessors is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_083","text":"Does the lecture present Circular Queue of int Data - Illustration as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_084","text":"Is Circular Queue of int Data - Mutators described as optional rather than necessary in COMP2011 ch14?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_085","text":"Does COMP2011 ch15 claim that Some New Features in has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_086","text":"Is it true that Initializer Example 1 works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_087","text":"Did COMP2011 ch15 say the opposite of for-Statements is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_088","text":"Does the lecture present Lambdas with Captures as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_089","text":"Is Mutable Lambda with Return described as optional rather than necessary in COMP2011 ch15?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_090","text":"Does COMP2011 ch16 claim that File I/O has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_091","text":"Is it true that C++ Stream works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_092","text":"Did COMP2011 ch16 say the opposite of Interactive Stream: iostream is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_093","text":"Does the lecture present File Copy as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_094","text":"Is Read an Array of Integers .. described as optional rather than necessary in COMP2011 ch16?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_095","text":"Does COMP2011 ch17 claim that Separate Compilation has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_096","text":"Is it true that Solution #1: Separate Compilation - main( ) works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_097","text":"Did COMP2011 ch17 say the opposite of Definition vs. Declaration is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_098","text":"Does the lecture present Header Files as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_099","text":"Is Header Files of the Standard C++ Libraries described as optional rather than necessary in COMP2011 ch17?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_100","text":"Does COMP2011 ch18 claim that C++ String Class has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_101","text":"Is it true that Constructors works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_102","text":"Did COMP2011 ch18 say the opposite of Accessing Individual Characters is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_103","text":"Does the lecture present Substrings as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_104","text":"Is Find and Replace .. described as optional rather than necessary in COMP2011 ch18?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_105","text":"Does COMP2012 ch1 claim that Object-Oriented Programming has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_106","text":"Is it true that Range-for Example works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_107","text":"Did COMP2012 ch1 say the opposite of Class Data Members is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_108","text":"Does the lecture present const-ness as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_109","text":"Is Summary described as optional rather than necessary in COMP2012 ch1?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_110","text":"Does COMP2012 ch2 claim that Object-Oriented Programming has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_111","text":"Is it true that Return-by-Value =>Copy Constructor works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_112","text":"Did COMP2012 ch2 say the opposite of Member Initializer List (MIL) is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_113","text":"Does the lecture present Bug: Default Memberwise Assignment as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_114","text":"Is Summary described as optional rather than necessary in COMP2012 ch2?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_115","text":"Does COMP2012 ch3 claim that Object-Oriented Programming has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_116","text":"Is it true that Order of Cons/Destruction: Student w/ an Address works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_117","text":"Did COMP2012 ch3 say the opposite of Virtual Function: UPerson Class is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_118","text":"Does the lecture present ABC Example: Assets as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_119","text":"Is Inheritance: Summary .. described as optional rather than necessary in COMP2012 ch3?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_120","text":"Does COMP2012 ch4 claim that Object-Oriented Programming has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_121","text":"Is it true that Class Template for Nodes of a List works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_122","text":"Did COMP2012 ch4 say the opposite of Global Non-member Operator<< Function ... is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_123","text":"Does the lecture present Friend Functions or Classes as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_124","text":"Is larger Template w/ Multiple Arguments II .. described as optional rather than necessary in COMP2012 ch4?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_125","text":"Does COMP2012 ch5 claim that Object-Oriented Programming has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_126","text":"Is it true that Lambdas with Captures works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_127","text":"Did COMP2012 ch5 say the opposite of Capture by Value or Reference is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_128","text":"Does the lecture present Function Pointer as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_129","text":"Is Further Reading: Nested Lambda described as optional rather than necessary in COMP2012 ch5?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_130","text":"Does COMP2012 ch6 claim that Object-Oriented Programming has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_131","text":"Is it true that Binary Trees works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_132","text":"Did COMP2012 ch6 say the opposite of BST Example and Counter-Example is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_133","text":"Does the lecture present BST Code: Find the Maximum Stored Value as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_134","text":"Is BST Testing Code .. described as optional rather than necessary in COMP2012 ch6?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_135","text":"Does COMP2012 ch7 claim that Object-Oriented Programming has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_136","text":"Is it true that Hash Function .. works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_137","text":"Did COMP2012 ch7 say the opposite of Separate Chaining Operations is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_138","text":"Does the lecture present Quadratic Probing as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_139","text":"Is Re-hashing described as optional rather than necessary in COMP2012 ch7?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_140","text":"Does COMP2012 ch8 claim that Object-Oriented Programming has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_141","text":"Is it true that Class Word: word.h .. works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_142","text":"Did COMP2012 ch8 say the opposite of Temporary Word Objects and rvalue Reference: Quiz is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_143","text":"Does the lecture present std::move( ) Example: word-pair.h as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_144","text":"Is std::move( ) Example: word-pair2.cpp Output described as optional rather than necessary in COMP2012 ch8?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_145","text":"Does COMP2012 ch9 claim that Object-Oriented Programming has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_146","text":"Is it true that COMP 2011 Example: bulb.cpp works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_147","text":"Did COMP2012 ch9 say the opposite of Linking Object Files is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_148","text":"Does the lecture present A Smarter Makefile as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_149","text":"Is #ifndef, #define, #endif described as optional rather than necessary in COMP2012 ch9?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_150","text":"Does COMP2012 ch10 claim that Object-Oriented Programming has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_151","text":"Is it true that Solution: namespace works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_152","text":"Did COMP2012 ch10 say the opposite of using Declaration is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_153","text":"Does the lecture present How Should We Declare Namespaces? as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_154","text":"Is Namespace Is Expansible described as optional rather than necessary in COMP2012 ch10?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_155","text":"Does COMP2012 ch11 claim that Object-Oriented Programming has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_156","text":"Is it true that Students Study for an Exam By Memorizing works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_157","text":"Did COMP2012 ch11 say the opposite of Students Cheat by Collective Memory is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_158","text":"Does the lecture present Class Clock With Static Methods - clock-test.cpp as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_159","text":"Is Static Data Members and Member Function / Method described as optional rather than necessary in COMP2012 ch11?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_160","text":"Does COMP2012 ch12 claim that Object-Oriented Programming has no effect on the outcome?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_161","text":"Is it true that Some Properties of STL Sequence Containers works even when the lecture's usual condition is missing?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_162","text":"Did COMP2012 ch12 say the opposite of Queue of int Data is always true?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_163","text":"Does the lecture present STL find( ) the 2nd Occurrence of a as irrelevant to the result?","metadata":{"feature":"0","type":"2"}}
+{"_id":"COMP_2_164","text":"Is Other Algorithms in the STL described as optional rather than necessary in COMP2012 ch12?","metadata":{"feature":"0","type":"2"}}

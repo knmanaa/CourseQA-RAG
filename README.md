@@ -7,6 +7,16 @@ Install conda, and execute following:
 ```
 conda env create -f conda_env_setup.yml
 conda activate CourseQARAG
+bash scripts/setup_conda_env.sh CourseQARAG
+```
+
+## GPU Acceleration (Optional but Recommended)
+
+The bootstrap script now detects whether CUDA is available and installs the matching PyTorch wheel plus a CUDA-enabled `llama-cpp-python` build when possible. If no GPU is detected, it keeps the CPU-only stack.
+
+If you want to rerun just the environment bootstrap later:
+```bash
+bash scripts/setup_conda_env.sh CourseQARAG
 ```
 
 ## GPU Acceleration (Optional but Recommended)

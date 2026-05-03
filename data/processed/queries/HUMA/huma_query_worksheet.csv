@@ -1,0 +1,193 @@
+query_id,type,lecture,feature,text,corpus_ids,answerable,notes
+HUMA_1_001,1,ch1,0,What does the text say about understanding digital humanities?,HUMA1678_ch1_1,yes,normal query
+HUMA_1_002,1,ch1,0,What does the text say about introduction selection editorial?,HUMA1678_ch1_2,yes,normal query
+HUMA_1_003,1,ch2,0,What does the text say about debates digital humanities?,HUMA1678_ch2_1,yes,normal query
+HUMA_1_004,1,ch2,0,What does the text say about copyright regents university?,HUMA1678_ch2_2,yes,normal query
+HUMA_1_005,1,ch3,0,What does the text say about networks introduction newman?,HUMA1678_ch3_1,yes,normal query
+HUMA_1_006,1,ch3,0,What does the text say about oxford umiybrsity press?,HUMA1678_ch3_2,yes,normal query
+HUMA_1_007,1,ch4,0,What does the text say about historical technologies methodologies?,HUMA1678_ch4_1,yes,normal query
+HUMA_1_008,1,ch4,0,What does the text say about cambridge university press?,HUMA1678_ch4_2,yes,normal query
+HUMA_1_009,1,ch5,0,What does the text say about literary pamphlet franco?,HUMA1678_ch5_1,yes,normal query
+HUMA_1_010,1,ch5,0,What does the text say about franco moretti network?,HUMA1678_ch5_2,yes,normal query
+HUMA_1_011,1,ch6,0,What does the text say about indiana university press?,HUMA1678_ch6_1,yes,normal query
+HUMA_1_012,1,ch6,0,What does the text say about book publication indiana?,HUMA1678_ch6_2,yes,normal query
+HUMA_1_013,1,ch7,0,What does the text say about taylor arnold lauren?,HUMA1678_ch7_1,yes,normal query
+HUMA_1_014,1,ch7,0,What does the text say about taylor arnold university?,HUMA1678_ch7_2,yes,normal query
+HUMA_1_015,1,ch8,0,What does the text say about taylor arnold lauren?,HUMA1678_ch8_1,yes,normal query
+HUMA_1_016,1,ch8,0,What does the text say about taylor arnold university?,HUMA1678_ch8_2,yes,normal query
+HUMA_1_017,1,ch9,0,What does the text say about debating developing digital?,HUMA1678_ch9_1,yes,normal query
+HUMA_1_018,1,ch9,0,What does the text say about debating developing digital?,HUMA1678_ch9_2,yes,normal query
+HUMA_1_019,1,ch10,0,What does the text say about taylor arnold lauren?,HUMA1678_ch10_1,yes,normal query
+HUMA_1_020,1,ch10,0,What does the text say about taylor arnold university?,HUMA1678_ch10_2,yes,normal query
+HUMA_1_021,1,ch11,0,What does the text say about indiana university press?,HUMA1678_ch11_1,yes,normal query
+HUMA_1_022,1,ch11,0,What does the text say about book publication indiana?,HUMA1678_ch11_2,yes,normal query
+HUMA_1_023,1,ch12,0,What does the text say about historical technologies methodologies?,HUMA1678_ch12_1,yes,normal query
+HUMA_1_024,1,ch12,0,What does the text say about cambridge university press?,HUMA1678_ch12_2,yes,normal query
+HUMA_1_025,1,special,0,What is understanding digital humanities as defined in the text?,HUMA1678_ch1_1,yes,special query; feature combo
+HUMA_1_026,1,special,1,What does the text say about quantum entanglement in Mars rovers?,,no,special query; feature combo
+HUMA_1_027,1,special,2,wht is understanding digital humanities as defined in te tx pls,HUMA1678_ch1_1,yes,special query; feature combo
+HUMA_1_028,1,special,3,wht doe te tx say abt quantum entanglement in Mars rovers? pls,,no,special query; feature combo
+HUMA_1_029,1,special,4,"Theo bai doc, understanding digital humanities la gi?",HUMA1678_ch1_1,yes,special query; feature combo
+HUMA_1_030,1,special,5,"Theo bai doc, no noi gi ve quantum entanglement trong Mars rover?",,no,special query; feature combo
+HUMA_1_031,1,special,6,"Theo bai doc, understanding digital humanities la gi? pls",HUMA1678_ch1_1,yes,special query; feature combo
+HUMA_1_032,1,special,7,"Theo bai doc, no noi gi ve quantum entanglement trong Mars rover? pls",,no,special query; feature combo
+HUMA_2_001,2,ch1,0,Does the text claim that digital is the only factor behind methods?,HUMA1678_ch1_3,yes,normal query
+HUMA_2_002,2,ch1,0,Does the text claim that bernhard is the only factor behind rieder?,HUMA1678_ch1_4,yes,normal query
+HUMA_2_003,2,ch2,0,Does the text claim that cotilenls is the only factor behind introduction?,HUMA1678_ch2_3,yes,normal query
+HUMA_2_004,2,ch2,0,Does the text claim that future is the only factor behind digital?,HUMA1678_ch2_4,yes,normal query
+HUMA_2_005,2,ch3,0,Does the text claim that contents is the only factor behind fundamentals?,HUMA1678_ch3_3,yes,normal query
+HUMA_2_006,2,ch3,0,Does the text claim that contents is the only factor behind clustering?,HUMA1678_ch3_4,yes,normal query
+HUMA_2_007,2,ch4,0,Does the text claim that contents is the only factor behind page?,HUMA1678_ch4_3,yes,normal query
+HUMA_2_008,2,ch4,0,Does the text claim that role is the only factor behind historical?,HUMA1678_ch4_4,yes,normal query
+HUMA_2_009,2,ch5,0,Does the text claim that character is the only factor behind network?,HUMA1678_ch5_3,yes,normal query
+HUMA_2_010,2,ch5,0,Does the text claim that ghost is the only factor behind shows?,HUMA1678_ch5_4,yes,normal query
+HUMA_2_011,2,ch6,0,Does the text claim that contents is the only factor behind introduction?,HUMA1678_ch6_3,yes,normal query
+HUMA_2_012,2,ch6,0,Does the text claim that geospatial is the only factor behind semantic?,HUMA1678_ch6_4,yes,normal query
+HUMA_2_013,2,ch7,0,Does the text claim that chapter is the only factor behind restructuring?,HUMA1678_ch7_3,yes,normal query
+HUMA_2_014,2,ch7,0,Does the text claim that restructuring is the only factor behind data?,HUMA1678_ch7_4,yes,normal query
+HUMA_2_015,2,ch8,0,Does the text claim that chapter is the only factor behind network?,HUMA1678_ch8_3,yes,normal query
+HUMA_2_016,2,ch8,0,Does the text claim that network is the only factor behind data?,HUMA1678_ch8_4,yes,normal query
+HUMA_2_017,2,ch9,0,Does the text claim that jing is the only factor behind chen?,HUMA1678_ch9_3,yes,normal query
+HUMA_2_018,2,ch9,0,Does the text claim that debating is the only factor behind developing?,HUMA1678_ch9_4,yes,normal query
+HUMA_2_019,2,ch10,0,Does the text claim that chapter is the only factor behind spatial?,HUMA1678_ch10_3,yes,normal query
+HUMA_2_020,2,ch10,0,Does the text claim that spatial is the only factor behind data?,HUMA1678_ch10_4,yes,normal query
+HUMA_2_021,2,ch11,0,Does the text claim that contents is the only factor behind introduction?,HUMA1678_ch11_3,yes,normal query
+HUMA_2_022,2,ch11,0,Does the text claim that geospatial is the only factor behind semantic?,HUMA1678_ch11_4,yes,normal query
+HUMA_2_023,2,ch12,0,Does the text claim that contents is the only factor behind page?,HUMA1678_ch12_3,yes,normal query
+HUMA_2_024,2,ch12,0,Does the text claim that using is the only factor behind visualise?,HUMA1678_ch12_4,yes,normal query
+HUMA_2_025,2,special,0,Does the text say digital is unrelated to methods?,HUMA1678_ch1_3,yes,special query; feature combo
+HUMA_2_026,2,special,1,Does the text claim that DNA sequencing is the only method for weather forecasting?,,no,special query; feature combo
+HUMA_2_027,2,special,2,doe te tx say digital is unrelated to methods? pls,HUMA1678_ch1_3,yes,special query; feature combo
+HUMA_2_028,2,special,3,doe te tx clm that DNA sequencing is te onyl method for weather forecasting? pls,,no,special query; feature combo
+HUMA_2_029,2,special,4,Bai doc co noi digital khong lien quan den methods khong?,HUMA1678_ch1_3,yes,special query; feature combo
+HUMA_2_030,2,special,5,Bai doc co noi DNA sequencing la cach duy nhat de du bao thoi tiet khong?,,no,special query; feature combo
+HUMA_2_031,2,special,6,Bai doc co noi digital khong lien quan den methods khong? pls,HUMA1678_ch1_3,yes,special query; feature combo
+HUMA_2_032,2,special,7,Bai doc co noi DNA sequencing la cach duy nhat de du bao thoi tiet khong? pls,,no,special query; feature combo
+HUMA_3_001,3,ch1,0,Why does digital affect methods according to the text?,HUMA1678_ch1_5,yes,normal query
+HUMA_3_002,3,ch1,0,Why does bernhard affect rieder according to the text?,HUMA1678_ch1_6,yes,normal query
+HUMA_3_003,3,ch2,0,Why does chaptev affect coding according to the text?,HUMA1678_ch2_5,yes,normal query
+HUMA_3_004,3,ch2,0,Why does julia affect damerow according to the text?,HUMA1678_ch2_6,yes,normal query
+HUMA_3_005,3,ch3,0,Why does contents affect epidemics according to the text?,HUMA1678_ch3_5,yes,normal query
+HUMA_3_006,3,ch3,0,Why does chapter affect social according to the text?,HUMA1678_ch3_6,yes,normal query
+HUMA_3_007,3,ch4,0,Why does historical affect using according to the text?,HUMA1678_ch4_5,yes,normal query
+HUMA_3_008,3,ch4,0,Why does role affect historical according to the text?,HUMA1678_ch4_6,yes,normal query
+HUMA_3_009,3,ch5,0,Why does ries affect usually according to the text?,HUMA1678_ch5_5,yes,normal query
+HUMA_3_010,3,ch5,0,Why does gian affect pretender according to the text?,HUMA1678_ch5_6,yes,normal query
+HUMA_3_011,3,ch6,0,Why does space affect everywhere according to the text?,HUMA1678_ch6_5,yes,normal query
+HUMA_3_012,3,ch6,0,Why does potentia affect spatia according to the text?,HUMA1678_ch6_6,yes,normal query
+HUMA_3_013,3,ch7,0,Why does joining affect relation according to the text?,HUMA1678_ch7_5,yes,normal query
+HUMA_3_014,3,ch7,0,Why does restructuring affect data according to the text?,HUMA1678_ch7_6,yes,normal query
+HUMA_3_015,3,ch8,0,Why does creating affect network according to the text?,HUMA1678_ch8_5,yes,normal query
+HUMA_3_016,3,ch8,0,Why does network affect data according to the text?,HUMA1678_ch8_6,yes,normal query
+HUMA_3_017,3,ch9,0,Why does jing affect chen according to the text?,HUMA1678_ch9_5,yes,normal query
+HUMA_3_018,3,ch9,0,Why does debating affect developing according to the text?,HUMA1678_ch9_6,yes,normal query
+HUMA_3_019,3,ch10,0,Why does spatial affect points according to the text?,HUMA1678_ch10_5,yes,normal query
+HUMA_3_020,3,ch10,0,Why does spatial affect data according to the text?,HUMA1678_ch10_6,yes,normal query
+HUMA_3_021,3,ch11,0,Why does introduction affect information according to the text?,HUMA1678_ch11_5,yes,normal query
+HUMA_3_022,3,ch11,0,Why does exploiting affect time according to the text?,HUMA1678_ch11_6,yes,normal query
+HUMA_3_023,3,ch12,0,Why does historical affect helping according to the text?,HUMA1678_ch12_5,yes,normal query
+HUMA_3_024,3,ch12,0,Why does using affect visualise according to the text?,HUMA1678_ch12_6,yes,normal query
+HUMA_3_025,3,special,0,What causes digital to change according to the text?,HUMA1678_ch1_5,yes,special query; feature combo
+HUMA_3_026,3,special,1,Why does dark matter cause a smartphone battery to drain faster?,,no,special query; feature combo
+HUMA_3_027,3,special,2,wht causes digital to change accroding to te tx pls,HUMA1678_ch1_5,yes,special query; feature combo
+HUMA_3_028,3,special,3,Why doe dark matter cause a smartphone battery to drain faster? pls,,no,special query; feature combo
+HUMA_3_029,3,special,4,"Theo bai doc, dieu gi gay ra digital thay doi?",HUMA1678_ch1_5,yes,special query; feature combo
+HUMA_3_030,3,special,5,Tai sao dark matter lam pin dien thoai het nhanh hon?,,no,special query; feature combo
+HUMA_3_031,3,special,6,"Theo bai doc, dieu gi gay ra digital thay doi? pls",HUMA1678_ch1_5,yes,special query; feature combo
+HUMA_3_032,3,special,7,Tai sao dark matter lam pin dien thoai het nhanh hon? pls,,no,special query; feature combo
+HUMA_4_001,4,ch1,0,How does the text suggest approaching digital methods affect?,HUMA1678_ch1_7,yes,normal query
+HUMA_4_002,4,ch1,0,How does the text suggest approaching bernhard rieder theo?,HUMA1678_ch1_8,yes,normal query
+HUMA_4_003,4,ch2,0,How does the text suggest approaching coding quality states?,HUMA1678_ch2_7,yes,normal query
+HUMA_4_004,4,ch2,0,How does the text suggest approaching julia damerow abraham?,HUMA1678_ch2_8,yes,normal query
+HUMA_4_005,4,ch3,0,How does the text suggest approaching empirical study social?,HUMA1678_ch3_7,yes,normal query
+HUMA_4_006,4,ch3,0,How does the text suggest approaching social networks interviews?,HUMA1678_ch3_8,yes,normal query
+HUMA_4_007,4,ch4,0,How does the text suggest approaching historical parish dist?,HUMA1678_ch4_7,yes,normal query
+HUMA_4_008,4,ch4,0,How does the text suggest approaching role historical research?,HUMA1678_ch4_8,yes,normal query
+HUMA_4_009,4,ch5,0,How does the text suggest approaching horatio exaggerating here?,HUMA1678_ch5_7,yes,normal query
+HUMA_4_010,4,ch5,0,How does the text suggest approaching symmetry networks made?,HUMA1678_ch5_8,yes,normal query
+HUMA_4_011,4,ch6,0,How does the text suggest approaching david bodenha embraces?,HUMA1678_ch6_7,yes,normal query
+HUMA_4_012,4,ch6,0,How does the text suggest approaching potentia spatia nities?,HUMA1678_ch6_8,yes,normal query
+HUMA_4_013,4,ch7,0,How does the text suggest approaching joining relation jersey?,HUMA1678_ch7_7,yes,normal query
+HUMA_4_014,4,ch7,0,How does the text suggest approaching restructuring data mutating?,HUMA1678_ch7_8,yes,normal query
+HUMA_4_015,4,ch8,0,How does the text suggest approaching creating network object?,HUMA1678_ch8_7,yes,normal query
+HUMA_4_016,4,ch8,0,How does the text suggest approaching network data visualization?,HUMA1678_ch8_8,yes,normal query
+HUMA_4_017,4,ch9,0,How does the text suggest approaching jing chen hang?,HUMA1678_ch9_7,yes,normal query
+HUMA_4_018,4,ch9,0,How does the text suggest approaching debating developing digital?,HUMA1678_ch9_8,yes,normal query
+HUMA_4_019,4,ch10,0,How does the text suggest approaching spatial points cbsa?,HUMA1678_ch10_7,yes,normal query
+HUMA_4_020,4,ch10,0,How does the text suggest approaching spatial data showing?,HUMA1678_ch10_8,yes,normal query
+HUMA_4_021,4,ch11,0,How does the text suggest approaching egory time space?,HUMA1678_ch11_7,yes,normal query
+HUMA_4_022,4,ch11,0,How does the text suggest approaching exploiting time space?,HUMA1678_ch11_8,yes,normal query
+HUMA_4_023,4,ch12,0,How does the text suggest approaching scale miles mortality?,HUMA1678_ch12_7,yes,normal query
+HUMA_4_024,4,ch12,0,How does the text suggest approaching using visualise historical?,HUMA1678_ch12_8,yes,normal query
+HUMA_4_025,4,special,0,How does the text recommend working with digital methods affect?,HUMA1678_ch1_7,yes,special query; feature combo
+HUMA_4_026,4,special,1,How does the text suggest training a neural network to solve chess endgames?,,no,special query; feature combo
+HUMA_4_027,4,special,2,How doe te tx recommend working with digital methods affect? pls,HUMA1678_ch1_7,yes,special query; feature combo
+HUMA_4_028,4,special,3,How doe te tx sugest training a neural network to solve chess endgames? pls,,no,special query; feature combo
+HUMA_4_029,4,special,4,"Theo bai doc, cach tiep can digital methods affect nhu the nao?",HUMA1678_ch1_7,yes,special query; feature combo
+HUMA_4_030,4,special,5,"Theo bai doc, lam sao huan luyen neural network de giai co vua?",,no,special query; feature combo
+HUMA_4_031,4,special,6,"Theo bai doc, cach tiep can digital methods affect nhu te nao? pls",HUMA1678_ch1_7,yes,special query; feature combo
+HUMA_4_032,4,special,7,"Theo bai doc, lam sao huan luyen neural network de giai co vua? pls",,no,special query; feature combo
+HUMA_5_001,5,ch1,0,"According to the text, how does digital relate to both methods and counters?",HUMA1678_ch1_9,yes,normal query
+HUMA_5_002,5,ch1,0,"According to the text, how does bernhard relate to both rieder and theo?",HUMA1678_ch1_10,yes,normal query
+HUMA_5_003,5,ch2,0,"According to the text, how does coding relate to both quality and fundamental?",HUMA1678_ch2_9,yes,normal query
+HUMA_5_004,5,ch2,0,"According to the text, how does julia relate to both damerow and abraham?",HUMA1678_ch2_10,yes,normal query
+HUMA_5_005,5,ch3,0,"According to the text, how does social relate to both networks and relationships?",HUMA1678_ch3_9,yes,normal query
+HUMA_5_006,5,ch3,0,"According to the text, how does interviews relate to both questionnaires and friends?",HUMA1678_ch3_10,yes,normal query
+HUMA_5_007,5,ch4,0,"According to the text, how does historical relate to both geographical and data?",HUMA1678_ch4_9,yes,normal query
+HUMA_5_008,5,ch4,0,"According to the text, how does role relate to both historical and research?",HUMA1678_ch4_10,yes,normal query
+HUMA_5_009,5,ch5,0,"According to the text, how does chinese relate to both novels and have?",HUMA1678_ch5_9,yes,normal query
+HUMA_5_010,5,ch5,0,"According to the text, how does whole relate to both cluster and interactions?",HUMA1678_ch5_10,yes,normal query
+HUMA_5_011,5,ch6,0,"According to the text, how does david relate to both bodenha and statistical?",HUMA1678_ch6_9,yes,normal query
+HUMA_5_012,5,ch6,0,"According to the text, how does potentia relate to both spatia and nities?",HUMA1678_ch6_10,yes,normal query
+HUMA_5_013,5,ch7,0,"According to the text, how does mutating relate to both filtering and joins?",HUMA1678_ch7_9,yes,normal query
+HUMA_5_014,5,ch7,0,"According to the text, how does restructuring relate to both data and there?",HUMA1678_ch7_10,yes,normal query
+HUMA_5_015,5,ch8,0,"According to the text, how does centrality relate to both visualization and page?",HUMA1678_ch8_9,yes,normal query
+HUMA_5_016,5,ch8,0,"According to the text, how does network relate to both data and degree?",HUMA1678_ch8_10,yes,normal query
+HUMA_5_017,5,ch9,0,"According to the text, how does jing relate to both chen and hang?",HUMA1678_ch9_9,yes,normal query
+HUMA_5_018,5,ch9,0,"According to the text, how does debating relate to both developing and digital?",HUMA1678_ch9_10,yes,normal query
+HUMA_5_019,5,ch10,0,"According to the text, how does polygons relate to both polygon and data?",HUMA1678_ch10_9,yes,normal query
+HUMA_5_020,5,ch10,0,"According to the text, how does spatial relate to both data and showing?",HUMA1678_ch10_10,yes,normal query
+HUMA_5_021,5,ch11,0,"According to the text, how does egory relate to both space and time?",HUMA1678_ch11_9,yes,normal query
+HUMA_5_022,5,ch11,0,"According to the text, how does exploiting relate to both time and space?",HUMA1678_ch11_10,yes,normal query
+HUMA_5_023,5,ch12,0,"According to the text, how does historical relate to both maps and produced?",HUMA1678_ch12_9,yes,normal query
+HUMA_5_024,5,ch12,0,"According to the text, how does using relate to both visualise and historical?",HUMA1678_ch12_10,yes,normal query
+HUMA_5_025,5,special,0,"According to the text, how does digital connect methods and counters?",HUMA1678_ch1_9,yes,special query; feature combo
+HUMA_5_026,5,special,1,"According to the text, how do hurricanes depend on GPU temperature and coffee intake?",,no,special query; feature combo
+HUMA_5_027,5,special,2,accroding to te tx how doe digital connect methods and counters? pls,HUMA1678_ch1_9,yes,special query; feature combo
+HUMA_5_028,5,special,3,accroding to te tx how do hurricanes depend on GPU temperature and coffee intake? pls,,no,special query; feature combo
+HUMA_5_029,5,special,4,"Theo bai doc, digital lien quan den methods va counters nhu the nao?",HUMA1678_ch1_9,yes,special query; feature combo
+HUMA_5_030,5,special,5,"Theo bai doc, bao phu thuoc the nao vao nhiet do GPU va uong ca phe?",,no,special query; feature combo
+HUMA_5_031,5,special,6,"Theo bai doc, digital lien quan den methods va counters nhu te nao? pls",HUMA1678_ch1_9,yes,special query; feature combo
+HUMA_5_032,5,special,7,"Theo bai doc, bao phu thuoc te nao vao nhiet do GPU va uong ca phe? pls",,no,special query; feature combo
+HUMA_6_001,6,ch1,0,"If digital changed, what would the text imply about methods?",HUMA1678_ch1_11,yes,normal query
+HUMA_6_002,6,ch1,0,"If bernhard changed, what would the text imply about rieder?",HUMA1678_ch1_12,yes,normal query
+HUMA_6_003,6,ch2,0,"If coding changed, what would the text imply about quality?",HUMA1678_ch2_11,yes,normal query
+HUMA_6_004,6,ch2,0,"If julia changed, what would the text imply about damerow?",HUMA1678_ch2_12,yes,normal query
+HUMA_6_005,6,ch3,0,"If social changed, what would the text imply about networks?",HUMA1678_ch3_11,yes,normal query
+HUMA_6_006,6,ch3,0,"If interviews changed, what would the text imply about questionnaires?",HUMA1678_ch3_12,yes,normal query
+HUMA_6_007,6,ch4,0,"If historical changed, what would the text imply about table?",HUMA1678_ch4_11,yes,normal query
+HUMA_6_008,6,ch4,0,"If role changed, what would the text imply about historical?",HUMA1678_ch4_12,yes,normal query
+HUMA_6_009,6,ch5,0,"If epilogue changed, what would the text imply about theory?",HUMA1678_ch5_11,yes,normal query
+HUMA_6_010,6,ch5,0,"If months changed, what would the text imply about follow?",HUMA1678_ch5_12,yes,normal query
+HUMA_6_011,6,ch6,0,"If david changed, what would the text imply about bodenha?",HUMA1678_ch6_11,yes,normal query
+HUMA_6_012,6,ch6,0,"If potentia changed, what would the text imply about spatia?",HUMA1678_ch6_12,yes,normal query
+HUMA_6_013,6,ch7,0,"If pivot changed, what would the text imply about longer?",HUMA1678_ch7_11,yes,normal query
+HUMA_6_014,6,ch7,0,"If restructuring changed, what would the text imply about data?",HUMA1678_ch7_12,yes,normal query
+HUMA_6_015,6,ch8,0,"If centrality changed, what would the text imply about visualization?",HUMA1678_ch8_11,yes,normal query
+HUMA_6_016,6,ch8,0,"If network changed, what would the text imply about data?",HUMA1678_ch8_12,yes,normal query
+HUMA_6_017,6,ch9,0,"If jing changed, what would the text imply about chen?",HUMA1678_ch9_11,yes,normal query
+HUMA_6_018,6,ch9,0,"If debating changed, what would the text imply about developing?",HUMA1678_ch9_12,yes,normal query
+HUMA_6_019,6,ch10,0,"If polygons changed, what would the text imply about showing?",HUMA1678_ch10_11,yes,normal query
+HUMA_6_020,6,ch10,0,"If spatial changed, what would the text imply about data?",HUMA1678_ch10_12,yes,normal query
+HUMA_6_021,6,ch11,0,"If egory changed, what would the text imply about humanities?",HUMA1678_ch11_11,yes,normal query
+HUMA_6_022,6,ch11,0,"If exploiting changed, what would the text imply about time?",HUMA1678_ch11_12,yes,normal query
+HUMA_6_023,6,ch12,0,"If historical changed, what would the text imply about accompanying?",HUMA1678_ch12_11,yes,normal query
+HUMA_6_024,6,ch12,0,"If using changed, what would the text imply about visualise?",HUMA1678_ch12_12,yes,normal query
+HUMA_6_025,6,special,0,"If digital increased, what would the text suggest about methods?",HUMA1678_ch1_11,yes,special query; feature combo
+HUMA_6_026,6,special,1,"If a black hole doubled in size, what would happen to airline ticket prices?",,no,special query; feature combo
+HUMA_6_027,6,special,2,"If digital increased, wht would te tx sugest abt methods? pls",HUMA1678_ch1_11,yes,special query; feature combo
+HUMA_6_028,6,special,3,"If a black hole doubled in size, wht would happen to airline ticket prices? pls",,no,special query; feature combo
+HUMA_6_029,6,special,4,"Neu digital tang, bai doc ham y gi ve methods?",HUMA1678_ch1_11,yes,special query; feature combo
+HUMA_6_030,6,special,5,"Neu black hole gap doi kich thuoc, gia ve may bay se ra sao?",,no,special query; feature combo
+HUMA_6_031,6,special,6,"Neu digital tang, bai doc ham y gi ve methods? pls",HUMA1678_ch1_11,yes,special query; feature combo
+HUMA_6_032,6,special,7,"Neu black hole gap doi kich thuoc, gia ve may bay se ra sao? pls",,no,special query; feature combo
