@@ -121,19 +121,46 @@ print("✅ Checking Local GGUF Model (knmanaa/courseQA)...")
 repo_id = os.getenv("COURSEQA_MODEL_REPO", "knmanaa/courseQA")
 filename = os.getenv("COURSEQA_MODEL_FILE", "qwen3_5-4b-q4_K_M.gguf")
 
-# Download from HF cache, then validate GGUF header to detect bad cache entries.
-model_path = hf_hub_download(repo_id=repo_id, filename=filename)
-if not _is_valid_gguf(model_path):
-    print("⚠️ Cached model appears invalid. Re-downloading...")
-    model_path = hf_hub_download(repo_id=repo_id, filename=filename, force_download=True)
+# Resolve repo-local models/ directory (two levels up from src/)
+_src_dir = Path(__file__).resolve().parent
+_repo_root = _src_dir.parent
+models_dir = _repo_root / "models"
+models_dir.mkdir(parents=True, exist_ok=True)
+
+model_path = str(models_dir / filename)
+if not os.path.isfile(model_path) or not _is_valid_gguf(model_path):
+    print(f"📥 Downloading {filename} → {models_dir} ...")
+    from huggingface_hub import hf_hub_download as _hf_dl
+    model_path = _hf_dl(
+        repo_id=repo_id,
+        filename=filename,
+        local_dir=str(models_dir),
+        local_dir_use_symlinks=False,
+    )
 
 if not _is_valid_gguf(model_path):
     raise RuntimeError(
         f"Model file is not a valid GGUF: {model_path}. "
-        "Delete the cache entry and try again."
+        "Delete the file and try again."
     )
 
 print(f"✅ Model is ready at: {model_path}")
+
+# ====================== EMBEDDING MODEL (local cache) ======================
+_embed_model_name = "sentence-transformers/all-MiniLM-L6-v2"
+_embed_local_dir = _repo_root / "deploy" / "embeddings" / "all-MiniLM-L6-v2"
+_embed_local_dir.mkdir(parents=True, exist_ok=True)
+# Consider the local copy valid when it contains at least config.json
+if not (_embed_local_dir / "config.json").is_file():
+    print(f"📥 Downloading embedding model → {_embed_local_dir} ...")
+    from huggingface_hub import snapshot_download as _snap_dl
+    _snap_dl(
+        repo_id=_embed_model_name,
+        local_dir=str(_embed_local_dir),
+        local_dir_use_symlinks=False,
+    )
+    print("✅ Embedding model downloaded.")
+_embed_model_path = str(_embed_local_dir)
 
 # ====================== PIPELINE ======================
 rag_pipeline = Pipeline()
@@ -146,7 +173,7 @@ device = ComponentDevice.from_str(device_str)
 
 rag_pipeline.add_component(
     "query_embedder",
-    SentenceTransformersTextEmbedder(model="sentence-transformers/all-MiniLM-L6-v2", device=device)
+    SentenceTransformersTextEmbedder(model=_embed_model_path, device=device)
 )
 
 rag_pipeline.add_component(

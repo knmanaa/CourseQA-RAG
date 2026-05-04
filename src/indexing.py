@@ -67,7 +67,23 @@ def run_indexing():
     
     device_str = "cuda:0" if torch.cuda.is_available() else "cpu"
     device = ComponentDevice.from_str(device_str)
-    embedder = SentenceTransformersDocumentEmbedder(model="sentence-transformers/all-MiniLM-L6-v2", device=device)
+
+    # Use repo-local embedding model; download if not present
+    _repo_root = Path(__file__).resolve().parent.parent
+    _embed_local_dir = _repo_root / "deploy" / "embeddings" / "all-MiniLM-L6-v2"
+    _embed_local_dir.mkdir(parents=True, exist_ok=True)
+    if not (_embed_local_dir / "config.json").is_file():
+        print(f"📥 Downloading embedding model → {_embed_local_dir} ...")
+        from huggingface_hub import snapshot_download as _snap_dl
+        _snap_dl(
+            repo_id="sentence-transformers/all-MiniLM-L6-v2",
+            local_dir=str(_embed_local_dir),
+            local_dir_use_symlinks=False,
+        )
+        print("✅ Embedding model downloaded.")
+    embed_model_path = str(_embed_local_dir)
+
+    embedder = SentenceTransformersDocumentEmbedder(model=embed_model_path, device=device)
     
     writer = DocumentWriter(document_store=document_store)
     
