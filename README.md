@@ -2,13 +2,17 @@
 
 Offline, privacy-preserving Teaching Assistant powered by RAG (Retrieval-Augmented Generation) using Haystack 2.x, FAISS, and a locally-served GGUF model.
 
-## Conda Env Setup
-Install conda, and execute following:
+## Quick Setup
+First install conda and execute the followings:
 ```
 conda env create -f conda_env_setup.yml
 conda activate CourseQARAG
-bash scripts/setup_conda_env.sh CourseQARAG
 ```
+Next,
+for Windows environment please execute './scripts/setup_conda_env.ps1';
+for Linux environment please execute './scripts/setup_conda_env.sh';
+
+The above process should work and you may skip the following details.
 
 ## GPU Acceleration (Optional but Recommended)
 
