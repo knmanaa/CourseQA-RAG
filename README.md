@@ -24,33 +24,67 @@ python -m src.indexing
 python -m src.retrieval_response
 ```
 
+## Models
+
+The app uses GGUF models from the HuggingFace repo [`knmanaa/courseQA`](https://huggingface.co/knmanaa/courseQA).
+
+| Model file | Size | Default? |
+|---|---|---|
+| `qwen3_5-4b-q4_K_M.gguf` | ~2.6 GB | ✅ Yes |
+| `qwen3_5-9b-q4_K_M.gguf` | ~5.8 GB | No |
+
+On first run, the **4B model** is downloaded automatically to `models/` if it is not already present.
+
+### Using the 9B model
+
+To switch to the 9B model, download it manually from HuggingFace and place it in the `models/` folder:
+
+```bash
+# Option A – huggingface-cli (recommended)
+huggingface-cli download knmanaa/courseQA qwen3_5-9b-q4_K_M.gguf --local-dir models
+
+# Option B – direct wget / curl
+curl -L -o models/qwen3_5-9b-q4_K_M.gguf \
+  "https://huggingface.co/knmanaa/courseQA/resolve/main/qwen3_5-9b-q4_K_M.gguf"
+```
+
+Then tell the app to use it by setting the environment variable before running:
+
+```bash
+export COURSEQA_MODEL_FILE=qwen3_5-9b-q4_K_M.gguf
+python -m src.retrieval_response
+```
+
+> **Note:** The 9B model requires ~6 GB of VRAM for full GPU offload. On an 8 GB card (e.g. RTX 3070) you may need to reduce GPU layers: `export COURSEQA_N_GPU_LAYERS=30`
+
+### Embedding model
+
+The `sentence-transformers/all-MiniLM-L6-v2` embedding model (~22 MB) is also downloaded automatically to `deploy/embeddings/all-MiniLM-L6-v2/` on first run of either `src.indexing` or `src.retrieval_response`.
+
+---
+
 ## GPU Acceleration (Optional but Recommended)
 
-The bootstrap script now detects whether CUDA is available and installs the matching PyTorch wheel plus a CUDA-enabled `llama-cpp-python` build when possible. If no GPU is detected, it keeps the CPU-only stack.
+The bootstrap script detects whether CUDA is available and installs the matching PyTorch wheel plus a CUDA-enabled `llama-cpp-python` build when possible. If no GPU is detected, it keeps the CPU-only stack.
+
+By default the pipeline automatically uses your GPU for both embeddings and LLM inference if it is properly configured.
 
 If you want to rerun just the environment bootstrap later:
 ```bash
 bash scripts/setup_conda_env.sh CourseQARAG
 ```
 
-## GPU Acceleration (Optional but Recommended)
-
-By default, the setup will use the CPU for embeddings and LLM inference. The pipeline is designed to automatically detect and use your GPU if it's properly configured. To enable GPU acceleration, follow these additional steps:
-
-**1. Install PyTorch with CUDA:**
-Depending on your CUDA version (e.g., CUDA 12.1), install the corresponding PyTorch build to allow `sentence-transformers` to use your GPU:
+**Install PyTorch with CUDA manually (if needed):**
 ```bash
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
 
-**2. Rebuild llama-cpp-python for GPU:**
-The default installation of `llama-cpp-python` only uses the CPU. If you have an NVIDIA GPU, you need to reinstall it with cuBLAS support (requires NVIDIA CUDA Toolkit and C++ Build Tools installed):
+**Rebuild llama-cpp-python for GPU manually (if needed):**
 ```cmd
 set CMAKE_ARGS="-DLLAMA_CUBLAS=ON"
 set FORCE_CMAKE=1
 pip install --upgrade --force-reinstall llama-cpp-python --no-cache-dir
 ```
-Once these are installed, the scripts will automatically detect your GPU and offload processing for much faster generation!
 
 ## Quantization Script Guide
 
@@ -98,9 +132,9 @@ CourseQA-RAG/
 │                               #   cache.npy        — stacked embedding vectors
 │                               #   cache_index.json — content-hash → row mapping
 │
-├── models/                     # GGUF model files (generated on DGX Spark)
-│                               #   deepseek-8b-f16.gguf, deepseek-8b-q8_0.gguf,
-│                               #   deepseek-8b-q5_K_M.gguf, deepseek-8b-q4_K_M.gguf, etc.
+├── models/                     # GGUF model files (auto-downloaded on first run)
+│                               #   qwen3_5-4b-q4_K_M.gguf  — default 4B model (~2.6 GB)
+│                               #   qwen3_5-9b-q4_K_M.gguf  — optional 9B model (~5.8 GB, manual download)
 │
 ├── scripts/
 │   └── quantization/           # Shell scripts for model conversion and quantization
