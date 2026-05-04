@@ -9,8 +9,10 @@ conda env create -f conda_env_setup.yml
 conda activate CourseQARAG
 ```
 Next,
-for Windows environment please execute './scripts/setup_conda_env.ps1';
-for Linux environment please execute './scripts/setup_conda_env.sh';
+
+for Windows environment please execute `./scripts/setup_conda_env.ps1`;
+
+for Linux environment please execute `./scripts/setup_conda_env.sh`;
 
 The above process should work and you may skip the following details.
 
