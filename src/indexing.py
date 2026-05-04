@@ -1,4 +1,16 @@
 import os
+import sys
+
+# Fix stale SSL_CERT_FILE env var (set by conda but pointing to nonexistent file)
+_ssl_cert = os.environ.get("SSL_CERT_FILE", "")
+if _ssl_cert and not os.path.isfile(_ssl_cert):
+    del os.environ["SSL_CERT_FILE"]
+
+# Force UTF-8 stdout/stderr on non-UTF-8 terminals (e.g. cp950)
+for _stream in (sys.stdout, sys.stderr):
+    if hasattr(_stream, "reconfigure") and (_stream.encoding or "").lower() not in ("utf-8", "utf8"):
+        _stream.reconfigure(encoding="utf-8", errors="replace")
+
 import json
 from pathlib import Path
 from typing import List, Union
