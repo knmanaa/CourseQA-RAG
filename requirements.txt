@@ -1,5 +1,3 @@
-[20:45, 4/26/2026] Ketchup さん: Passward:Chung house
-[23:01, 4/26/2026] ケルビンちゃん: haystack-ai
 faiss-haystack
 llama-cpp-haystack
 sentence-transformers
