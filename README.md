@@ -12,9 +12,17 @@ Next,
 
 for Windows environment please execute `./scripts/setup_conda_env.ps1`;
 
+> Note: For windows users, you will need to install Microsoft Visual Studio Build Tools 2022 as prompted in order to build llama-cpp-python wheels successfully.
+
 for Linux environment please execute `./scripts/setup_conda_env.sh`;
 
 The above process should work and you may skip the following details.
+
+Finally, ensure you are in project root and conda env, then run:
+```
+python -m src.indexing
+python -m src.retrieval_response
+```
 
 ## GPU Acceleration (Optional but Recommended)
 
