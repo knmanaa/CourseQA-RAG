@@ -1,0 +1,36 @@
+{
+  "model": "C:\\Users\\Admin\\.cache\\huggingface\\hub\\models--knmanaa--courseQA\\snapshots\\5d081dcb7979f6a498467931e9aa0961de39a057\\qwen3_5-4b-q4_K_M.gguf",
+  "prompt": "Explain gradient descent briefly in about 150 words.",
+  "max_tokens": 128,
+  "temperature": 0.1,
+  "n_ctx": 2048,
+  "warmup": 1,
+  "runs": 3,
+  "cuda_available": false,
+  "use_chat_api": true,
+  "modes": {
+    "n_gpu_layers=0": [
+      {
+        "ttft_ms": 740.7208000076935,
+        "tpot_ms_per_token": 134.061571653826,
+        "e2e_ms": 17767.33190001687,
+        "n_chunks": 128,
+        "output_chars": 484
+      },
+      {
+        "ttft_ms": 696.345400006976,
+        "tpot_ms_per_token": 143.47328897611436,
+        "e2e_ms": 18919.111499970313,
+        "n_chunks": 128,
+        "output_chars": 472
+      },
+      {
+        "ttft_ms": 1451.7069999710657,
+        "tpot_ms_per_token": 242.6611417327003,
+        "e2e_ms": 32285.723500011954,
+        "n_chunks": 128,
+        "output_chars": 482
+      }
+    ]
+  }
+}
