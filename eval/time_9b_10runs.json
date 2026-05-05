@@ -1,0 +1,85 @@
+{
+  "model": "C:\\Users\\Admin\\.cache\\huggingface\\hub\\models--knmanaa--courseQA\\snapshots\\5d081dcb7979f6a498467931e9aa0961de39a057\\qwen3_5-9b-q4_K_M.gguf",
+  "prompt": "Explain gradient descent briefly in about 150 words.",
+  "max_tokens": 128,
+  "temperature": 0.1,
+  "n_ctx": 2048,
+  "warmup": 1,
+  "runs": 10,
+  "cuda_available": false,
+  "use_chat_api": true,
+  "modes": {
+    "n_gpu_layers=0": [
+      {
+        "ttft_ms": 1434.4905000180006,
+        "tpot_ms_per_token": 257.2045094488504,
+        "e2e_ms": 34130.531000031624,
+        "n_chunks": 128,
+        "output_chars": 456
+      },
+      {
+        "ttft_ms": 1678.4045999520458,
+        "tpot_ms_per_token": 269.7188133858768,
+        "e2e_ms": 35934.41539997002,
+        "n_chunks": 128,
+        "output_chars": 465
+      },
+      {
+        "ttft_ms": 2743.890200043097,
+        "tpot_ms_per_token": 367.68305039365123,
+        "e2e_ms": 49441.301300015766,
+        "n_chunks": 128,
+        "output_chars": 456
+      },
+      {
+        "ttft_ms": 1978.2057999982499,
+        "tpot_ms_per_token": 273.2221590553036,
+        "e2e_ms": 36679.14279998513,
+        "n_chunks": 128,
+        "output_chars": 467
+      },
+      {
+        "ttft_ms": 1934.9259000155143,
+        "tpot_ms_per_token": 292.01594803172463,
+        "e2e_ms": 39022.67620002385,
+        "n_chunks": 128,
+        "output_chars": 467
+      },
+      {
+        "ttft_ms": 1962.9350999603048,
+        "tpot_ms_per_token": 294.4159157483428,
+        "e2e_ms": 39355.61420000158,
+        "n_chunks": 128,
+        "output_chars": 476
+      },
+      {
+        "ttft_ms": 2163.8996000401676,
+        "tpot_ms_per_token": 336.57618031486885,
+        "e2e_ms": 44910.682899993844,
+        "n_chunks": 128,
+        "output_chars": 456
+      },
+      {
+        "ttft_ms": 2155.5872000171803,
+        "tpot_ms_per_token": 314.7597204725163,
+        "e2e_ms": 42131.915600039065,
+        "n_chunks": 128,
+        "output_chars": 456
+      },
+      {
+        "ttft_ms": 2531.532099994365,
+        "tpot_ms_per_token": 274.2955456689499,
+        "e2e_ms": 37368.78789996263,
+        "n_chunks": 128,
+        "output_chars": 456
+      },
+      {
+        "ttft_ms": 1994.8500999598764,
+        "tpot_ms_per_token": 311.01381574806896,
+        "e2e_ms": 41495.38039998151,
+        "n_chunks": 128,
+        "output_chars": 467
+      }
+    ]
+  }
+}
