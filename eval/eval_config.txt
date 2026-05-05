@@ -2,7 +2,7 @@
 # Format: KEY=VALUE
 
 # Model selection
-MODEL_ID=Qwen/Qwen3.5-9B
+MODEL_ID=Qwen/Qwen3.5-4B
 # Optional override. If empty, derived from MODEL_ID.
 # BASE_NAME=qwen3_5-9b
 
@@ -32,6 +32,11 @@ CTX_SIZE=4096
 
 # Runtime settings
 THREADS=-1
+# N_GPU_LAYERS: number of model layers to offload to GPU.
+#   auto  = -1 (all layers) when CUDA is available, 0 (CPU only) otherwise
+#   -1    = all layers on GPU
+#   0     = CPU only
+#   N     = offload N layers (useful on 8 GB VRAM for the 9B model, e.g. N_GPU_LAYERS=30)
 N_GPU_LAYERS=auto
 REPETITIONS=2
 WARMUP_PROMPTS=1

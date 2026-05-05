@@ -12,6 +12,8 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
+_IS_WINDOWS = sys.platform == "win32"
+
 
 CONFIG_DEFAULTS = {
     "MODEL_ID": "Qwen/Qwen3.5-9B",
@@ -58,9 +60,11 @@ class RequestMetrics:
 
 
 class MemoryMonitor:
-    def __init__(self, pid: int, poll_interval_sec: float):
+    def __init__(self, pid: int, poll_interval_sec: float, vram_baseline_gb: dict[str, float] | None = None):
         self.pid = pid
         self.poll_interval_sec = poll_interval_sec
+        # GPU-level baseline (captured before server started) to subtract idle usage
+        self.vram_baseline_gb: dict[str, float] = vram_baseline_gb or {}
         self._stop_event = threading.Event()
         self._thread: threading.Thread | None = None
         self.peak_rss_gb: float | None = None
@@ -76,21 +80,24 @@ class MemoryMonitor:
             if self.peak_rss_gb is None or rss_gb > self.peak_rss_gb:
                 self.peak_rss_gb = rss_gb
 
-        usages = self._get_gpu_usage_for_pid(self.pid)
+        usages = self._get_gpu_usage_total()
         if usages:
-            total_vram_gb = sum(item["used_gb"] for item in usages)
-            if self.peak_vram_gb is None or total_vram_gb > self.peak_vram_gb:
-                self.peak_vram_gb = total_vram_gb
+            # Subtract idle baseline so we measure only model VRAM
+            net_total = sum(
+                max(0.0, item["used_gb"] - self.vram_baseline_gb.get(item["index"], 0.0))
+                for item in usages
+            )
+            if self.peak_vram_gb is None or net_total > self.peak_vram_gb:
+                self.peak_vram_gb = net_total
 
             for item in usages:
                 gpu_index = item["index"]
-                gpu_name = item["name"]
-                gpu_uuid = item["uuid"]
-                used_gb = item["used_gb"]
+                baseline = self.vram_baseline_gb.get(gpu_index, 0.0)
+                used_gb = max(0.0, item["used_gb"] - baseline)
 
                 self.gpu_indices.add(gpu_index)
-                self.gpu_names.add(gpu_name)
-                self.gpu_uuids.add(gpu_uuid)
+                self.gpu_names.add(item["name"])
+                self.gpu_uuids.add(item["uuid"])
 
                 previous = self.peak_vram_by_gpu.get(gpu_index)
                 if previous is None or used_gb > previous:
@@ -113,68 +120,72 @@ class MemoryMonitor:
 
     @staticmethod
     def _get_rss_gb(pid: int) -> float | None:
+        # Windows: use psutil if available
+        if _IS_WINDOWS:
+            try:
+                import psutil
+                return psutil.Process(pid).memory_info().rss / 1024.0 / 1024.0 / 1024.0
+            except Exception:
+                return None
+        # Linux: read /proc
         try:
             with open(f"/proc/{pid}/status", "r", encoding="utf-8") as handle:
                 for line in handle:
                     if line.startswith("VmRSS:"):
                         parts = line.split()
                         kb = float(parts[1])
-                        # convert KB -> GB
                         return kb / 1024.0 / 1024.0
         except (FileNotFoundError, PermissionError, OSError):
             return None
         return None
 
     @staticmethod
-    def _get_gpu_usage_for_pid(pid: int) -> list[dict[str, Any]]:
+    def _get_gpu_usage_total() -> list[dict[str, Any]]:
+        """Query total used VRAM per GPU (works on Windows WDDM unlike per-process query)."""
         nvidia_smi = shutil_which("nvidia-smi")
         if not nvidia_smi:
             return []
-
-        gpu_inventory = MemoryMonitor._get_gpu_inventory(nvidia_smi)
-
         try:
             proc = subprocess.run(
                 [
                     nvidia_smi,
-                    "--query-compute-apps=pid,gpu_uuid,used_memory",
+                    "--query-gpu=index,name,uuid,memory.used",
                     "--format=csv,noheader,nounits",
                 ],
                 check=False,
                 capture_output=True,
                 text=True,
+                timeout=5,
             )
             if proc.returncode != 0:
                 return []
 
-            matches: list[dict[str, Any]] = []
+            results: list[dict[str, Any]] = []
             for raw in proc.stdout.strip().splitlines():
-                if not raw.strip():
-                    continue
-                fields = [f.strip() for f in raw.split(",")]
-                if len(fields) < 3:
+                parts = [p.strip() for p in raw.split(",")]
+                if len(parts) < 4:
                     continue
                 try:
-                    app_pid = int(fields[0])
-                    gpu_uuid = fields[1]
-                    # nvidia-smi returns MB; convert to GB
-                    used_mb = float(fields[2])
-                    used_gb = used_mb / 1024.0
+                    used_mb = float(parts[3])
                 except ValueError:
                     continue
-                if app_pid == pid:
-                    gpu_meta = gpu_inventory.get(gpu_uuid, {})
-                    matches.append(
-                        {
-                            "index": gpu_meta.get("index", "unknown"),
-                            "name": gpu_meta.get("name", "unknown"),
-                            "uuid": gpu_uuid,
-                            "used_gb": used_gb,
-                        }
-                    )
-            return matches
-        except OSError:
+                results.append({
+                    "index": parts[0],
+                    "name": parts[1],
+                    "uuid": parts[2],
+                    "used_gb": used_mb / 1024.0,
+                })
+            return results
+        except Exception:
             return []
+
+    @staticmethod
+    def capture_baseline() -> dict[str, float]:
+        """Capture current GPU memory.used as baseline before server starts."""
+        result: dict[str, float] = {}
+        for item in MemoryMonitor._get_gpu_usage_total():
+            result[item["index"]] = item["used_gb"]
+        return result
 
     @staticmethod
     def _get_gpu_inventory(nvidia_smi: str) -> dict[str, dict[str, str]]:
@@ -208,11 +219,9 @@ class MemoryMonitor:
 
 
 def shutil_which(binary: str) -> str | None:
-    for path_dir in os.environ.get("PATH", "").split(os.pathsep):
-        candidate = Path(path_dir) / binary
-        if candidate.is_file() and os.access(candidate, os.X_OK):
-            return str(candidate)
-    return None
+    import shutil as _shutil
+    # Use stdlib shutil.which which handles .EXE on Windows, PATH, PATHEXT correctly
+    return _shutil.which(binary)
 
 
 def parse_config(path: Path) -> dict[str, str]:
@@ -323,7 +332,12 @@ def load_prompts(config: dict[str, str], repo_root: Path) -> list[str]:
     return prompts
 
 
-def wait_for_server(port: int, timeout_sec: float) -> None:
+def wait_for_server(
+    port: int,
+    timeout_sec: float,
+    process: "subprocess.Popen[str]",
+    log_file: Path,
+) -> None:
     import requests
 
     url_candidates = [
@@ -332,21 +346,66 @@ def wait_for_server(port: int, timeout_sec: float) -> None:
     ]
 
     deadline = time.time() + timeout_sec
+    last_dot = time.time()
+    print(f"  Waiting for server on port {port} (timeout {timeout_sec:.0f}s)...", end="", flush=True)
     while time.time() < deadline:
+        # Fail fast if the server process has already exited
+        if process.poll() is not None:
+            print(" CRASHED")
+            _print_log_tail(log_file)
+            raise RuntimeError(
+                f"llama-server process exited (rc={process.returncode}) before becoming ready. "
+                f"See log: {log_file}"
+            )
+
         for url in url_candidates:
             try:
                 r = requests.get(url, timeout=2)
                 if r.status_code < 500:
+                    print(" ready!")
                     return
             except Exception:
                 pass
+
+        if time.time() - last_dot >= 5:
+            print(".", end="", flush=True)
+            last_dot = time.time()
         time.sleep(0.5)
 
+    print(" TIMEOUT")
+    _print_log_tail(log_file)
     raise TimeoutError(f"llama-server did not become ready within {timeout_sec}s on port {port}")
 
 
+def _print_log_tail(log_file: Path, lines: int = 30) -> None:
+    try:
+        text = log_file.read_text(encoding="utf-8", errors="replace")
+        tail = text.strip().splitlines()[-lines:]
+        print(f"--- Last {len(tail)} lines of server log ({log_file.name}) ---")
+        for line in tail:
+            print("  ", line)
+        print("---")
+    except Exception:
+        pass
+
+
+def _find_llama_server(llama_cpp_dir: Path) -> Path | None:
+    """Return path to llama-server binary, or None if not found."""
+    import shutil
+    suffix = ".exe" if _IS_WINDOWS else ""
+    # 1. Traditional llama.cpp build layout
+    candidate = llama_cpp_dir / "build" / "bin" / f"llama-server{suffix}"
+    if candidate.exists():
+        return candidate
+    # 2. Search PATH (covers conda-installed or system builds)
+    found = shutil.which(f"llama-server{suffix}") or shutil.which("llama-server")
+    if found:
+        return Path(found)
+    return None
+
+
 def start_server(
-    llama_server_bin: Path,
+    llama_server_bin: Path | None,
     model_path: Path,
     port: int,
     config: dict[str, str],
@@ -356,30 +415,80 @@ def start_server(
     log_file = log_dir / f"server_{model_path.stem}_{int(time.time())}.log"
 
     n_gpu_layers = config.get("N_GPU_LAYERS", "auto").strip()
-    cmd = [
-        str(llama_server_bin),
-        "-m",
-        str(model_path),
-        "--port",
-        str(port),
-        "-c",
-        str(to_int(config, "CTX_SIZE")),
-        "-t",
-        str(to_int(config, "THREADS")),
-    ]
+    threads = to_int(config, "THREADS")
+    ctx_size = to_int(config, "CTX_SIZE")
 
-    if n_gpu_layers and n_gpu_layers.lower() != "auto":
-        cmd.extend(["-ngl", n_gpu_layers])
-
-    with open(log_file, "w", encoding="utf-8") as handle:
-        process = subprocess.Popen(
-            cmd,
-            stdout=handle,
-            stderr=subprocess.STDOUT,
-            text=True,
-            preexec_fn=os.setsid,
+def _resolve_gpu_layers(n_gpu_layers: str) -> str:
+    """Resolve 'auto' to -1 (full GPU) if CUDA is available, else 0 (CPU)."""
+    if n_gpu_layers.lower() != "auto":
+        return n_gpu_layers
+    try:
+        import torch
+        return "-1" if torch.cuda.is_available() else "0"
+    except ImportError:
+        pass
+    # Fallback: check nvidia-smi
+    try:
+        result = subprocess.run(
+            ["nvidia-smi", "--query-gpu=name", "--format=csv,noheader"],
+            capture_output=True, text=True, timeout=5
         )
+        if result.returncode == 0 and result.stdout.strip():
+            return "-1"
+    except Exception:
+        pass
+    return "0"
 
+
+def start_server(
+    llama_server_bin: Path | None,
+    model_path: Path,
+    port: int,
+    config: dict[str, str],
+    log_dir: Path,
+) -> tuple[subprocess.Popen[str], Path]:
+    log_dir.mkdir(parents=True, exist_ok=True)
+    log_file = log_dir / f"server_{model_path.stem}_{int(time.time())}.log"
+
+    n_gpu_layers = _resolve_gpu_layers(config.get("N_GPU_LAYERS", "auto").strip())
+    threads = to_int(config, "THREADS")
+    ctx_size = to_int(config, "CTX_SIZE")
+
+    print(f"  GPU layers: {n_gpu_layers}  ctx: {ctx_size}  threads: {threads}")
+
+    if llama_server_bin is not None:
+        # Native llama-server binary
+        cmd: list[str] = [
+            str(llama_server_bin),
+            "-m", str(model_path),
+            "--port", str(port),
+            "-c", str(ctx_size),
+            "-t", str(threads),
+            "-ngl", n_gpu_layers,
+        ]
+    else:
+        # Fallback: llama_cpp.server Python module
+        cmd = [
+            sys.executable, "-m", "llama_cpp.server",
+            "--model", str(model_path),
+            "--port", str(port),
+            "--n_ctx", str(ctx_size),
+            "--n_gpu_layers", n_gpu_layers,
+        ]
+        if threads > 0:
+            cmd.extend(["--n_threads", str(threads)])
+
+    kwargs: dict = dict(
+        stdout=open(log_file, "w", encoding="utf-8"),
+        stderr=subprocess.STDOUT,
+        text=True,
+    )
+    if _IS_WINDOWS:
+        kwargs["creationflags"] = subprocess.CREATE_NEW_PROCESS_GROUP
+    else:
+        kwargs["preexec_fn"] = os.setsid
+
+    process = subprocess.Popen(cmd, **kwargs)
     return process, log_file
 
 
@@ -387,8 +496,11 @@ def stop_server(process: subprocess.Popen[str]) -> None:
     if process.poll() is not None:
         return
     try:
-        os.killpg(process.pid, signal.SIGTERM)
-    except ProcessLookupError:
+        if _IS_WINDOWS:
+            process.terminate()
+        else:
+            os.killpg(process.pid, signal.SIGTERM)
+    except (ProcessLookupError, OSError):
         return
 
     try:
@@ -398,8 +510,11 @@ def stop_server(process: subprocess.Popen[str]) -> None:
         pass
 
     try:
-        os.killpg(process.pid, signal.SIGKILL)
-    except ProcessLookupError:
+        if _IS_WINDOWS:
+            process.kill()
+        else:
+            os.killpg(process.pid, signal.SIGKILL)
+    except (ProcessLookupError, OSError):
         pass
 
 
@@ -408,6 +523,7 @@ def run_stream_request(
     prompt: str,
     config: dict[str, str],
     server_pid: int,
+    vram_baseline: dict[str, float] | None = None,
 ) -> RequestMetrics:
     import requests
 
@@ -423,7 +539,7 @@ def run_stream_request(
     timeout_sec = to_float(config, "REQUEST_TIMEOUT_SEC")
     poll_interval = to_float(config, "MEMORY_POLL_INTERVAL_SEC")
 
-    monitor = MemoryMonitor(server_pid, poll_interval)
+    monitor = MemoryMonitor(server_pid, poll_interval, vram_baseline_gb=vram_baseline)
     monitor.start()
 
     start_t = time.perf_counter()
@@ -564,11 +680,25 @@ def main() -> int:
     if not llama_cpp_dir.is_absolute():
         llama_cpp_dir = (repo_root / llama_cpp_dir).resolve()
 
-    llama_server_bin = llama_cpp_dir / "build" / "bin" / "llama-server"
-    if not llama_server_bin.exists():
-        print(f"Error: llama-server not found at {llama_server_bin}", file=sys.stderr)
-        print("Build llama.cpp first (cmake -S llama.cpp -B llama.cpp/build && cmake --build llama.cpp/build).", file=sys.stderr)
-        return 1
+    llama_server_bin = _find_llama_server(llama_cpp_dir)
+    if llama_server_bin is None:
+        # Try falling back to llama_cpp.server Python module
+        try:
+            import importlib
+            importlib.import_module("llama_cpp.server")
+            print("ℹ️  llama-server binary not found — using llama_cpp.server Python fallback.")
+        except ImportError:
+            print(
+                f"Error: llama-server not found at {llama_cpp_dir / 'build' / 'bin' / 'llama-server'} "
+                "and llama_cpp.server module is unavailable.",
+                file=sys.stderr,
+            )
+            print(
+                "Either build llama.cpp (cmake -S llama.cpp -B llama.cpp/build && cmake --build llama.cpp/build) "
+                "or install llama-cpp-python with server extras: pip install llama-cpp-python[server]",
+                file=sys.stderr,
+            )
+            return 1
 
     model_paths = resolve_model_paths(config, repo_root)
     prompts = load_prompts(config, repo_root)
@@ -598,29 +728,36 @@ def main() -> int:
     print(f"Prompts loaded: {len(prompts)}")
     print(f"Repetitions: {repetitions}, Warmup prompts: {warmup_prompts}")
 
-    for model_idx, model_path in enumerate(model_paths):
+    active_port = port_base  # only incremented for models that are actually benchmarked
+    for model_path in model_paths:
         if not model_path.exists():
             print(f"[skip] Missing model file: {as_rel(model_path, repo_root)}")
             continue
 
         rel_model_path = as_rel(model_path, repo_root)
 
-        port = port_base + model_idx
+        port = active_port
+        active_port += 1
         print(f"\n== Benchmarking: {rel_model_path} (port {port}) ==")
+
+        vram_baseline = MemoryMonitor.capture_baseline()
+        if vram_baseline:
+            total_baseline = sum(vram_baseline.values())
+            print(f"  VRAM baseline: {total_baseline:.2f} GB (idle)")
 
         process, log_file = start_server(llama_server_bin, model_path, port, config, log_dir)
 
         try:
-            wait_for_server(port, startup_timeout)
+            wait_for_server(port, startup_timeout, process, log_file)
             print(f"Server ready. Log: {as_rel(log_file, repo_root)}")
 
             for i in range(min(warmup_prompts, len(prompts))):
-                _ = run_stream_request(port, prompts[i], config, process.pid)
+                _ = run_stream_request(port, prompts[i], config, process.pid, vram_baseline)
                 print(f"  warmup {i + 1}/{min(warmup_prompts, len(prompts))} complete")
 
             for rep in range(1, repetitions + 1):
                 for prompt_idx, prompt in enumerate(prompts, start=1):
-                    metrics = run_stream_request(port, prompt, config, process.pid)
+                    metrics = run_stream_request(port, prompt, config, process.pid, vram_baseline)
                     row = {
                         "model_path": rel_model_path,
                         "model_file": model_path.name,
