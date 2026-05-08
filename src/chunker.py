@@ -354,6 +354,7 @@ class DocumentChunker:
         for doc in documents:
             text = doc.content or ""
             text = _clean_text(text)
+            doc_id = doc.id
 
             if not text:
                 logger.debug(
@@ -378,7 +379,8 @@ class DocumentChunker:
                     # page_number is already in doc.meta if ingest.py set it.
                     # We do NOT override it here; it marks where the chunk starts.
                 }
-                output.append(Document(content=chunk_text, meta=meta))
+                chunk_id = doc_id + f"_chunk_{idx}"
+                output.append(Document(id = chunk_id, content=chunk_text, meta=meta))
 
         logger.info(
             "DocumentChunker [strategy=%s | chunk_size=%d | overlap=%d] "

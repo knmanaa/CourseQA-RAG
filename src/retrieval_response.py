@@ -119,7 +119,7 @@ def _is_valid_gguf(path: str | Path) -> bool:
 # ====================== DOWNLOAD MODEL THUỘC HUB KNMANAA/COURSEQA ======================
 print("✅ Checking Local GGUF Model (knmanaa/courseQA)...")
 repo_id = os.getenv("COURSEQA_MODEL_REPO", "knmanaa/courseQA")
-filename = os.getenv("COURSEQA_MODEL_FILE", "qwen3_5-4b-q4_K_M.gguf")
+filename = os.getenv("COURSEQA_MODEL_FILE", "qwen3_5-9b-q4_K_M.gguf")
 
 # Resolve repo-local models/ directory (two levels up from src/)
 _src_dir = Path(__file__).resolve().parent
@@ -176,9 +176,11 @@ rag_pipeline.add_component(
     SentenceTransformersTextEmbedder(model=_embed_model_path, device=device)
 )
 
+faiss_top_k = int(os.getenv("TOP_K", 6))
+
 rag_pipeline.add_component(
     "retriever",
-    FAISSEmbeddingRetriever(document_store=document_store, top_k=6)
+    FAISSEmbeddingRetriever(document_store=document_store, top_k=faiss_top_k)
 )
 
 rag_pipeline.add_component(
@@ -259,19 +261,16 @@ def run_query(question: str):
         "query_embedder": {"text": question},
         "prompt_builder": {"query": question},
     }
-    if debug_retrieval:
-        result = rag_pipeline.run(run_input, include_outputs_from=["retriever"])
-    else:
-        result = rag_pipeline.run(run_input)
 
-    docs = result.get("retriever", {}).get("documents", []) if debug_retrieval else []
+    result = rag_pipeline.run(run_input, include_outputs_from=["retriever"])
+    docs = result.get("retriever", {}).get("documents", [])
     if debug_retrieval:
         print("\n[DEBUG] Top retrieved chunks:")
         for idx, doc in enumerate(docs, start=1):
             meta = doc.meta or {}
             src = meta.get("file") or meta.get("file_path") or meta.get("source") or "<unknown>"
             snippet = (doc.content or "")[:220].replace("\n", " ")
-            print(f"  {idx}. score={doc.score:.4f} source={src}")
+            print(f"  {idx}. score={doc.score:.4f} source={src} id={doc.id}")
             print(f"     {snippet}")
         strong_docs = [d for d in docs if (d.score or 0.0) >= retrieval_min_score]
         print(
@@ -281,7 +280,8 @@ def run_query(question: str):
 
     answer = result["generator"]["replies"][0].text
     
-    return answer
+    
+    return (answer, docs)
 
 if __name__ == "__main__":
     print("\n" + "="*50)
@@ -295,7 +295,7 @@ if __name__ == "__main__":
             
         try:
             print("\n[AI is thinking...]")
-            ans = run_query(q)
+            ans, _ = run_query(q)
             # Remove <think> tags if present to just show the answer
             if "</think>" in ans:
                 ans = ans.split("</think>")[-1].strip()

@@ -43,7 +43,7 @@ class CourseJSONToDocument:
                     data = json.load(f)
                     for key, val in data.items():
                         # We create one document per slide/paragraph
-                        documents.append(Document(content=val, meta={"slide_id": key, "file": str(src)}))
+                        documents.append(Document(id=key, content=val, meta={"slide_id": key, "file": str(src)}))
             except Exception as e:
                 print(f"Warning: Could not read {src} as JSON - {e}")
         return {"documents": documents}
